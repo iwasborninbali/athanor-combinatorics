@@ -1,0 +1,3 @@
+{"type":"start","N":14,"patterns":3,"count_skipped":0,"cases":5}
+{"type":"case","N":14,"pattern":0,"color":3,"S":3,"assignments":10,"represented":2,"nodes":5,"found":true,"elapsed":3e-06}
+{"type":"witness","N":14,"arcs":[3,6,5],"chords":[[0,3],[0,9]]}

@@ -1,0 +1,14 @@
+{
+  "order": 13,
+  "excluded_target": 12,
+  "status": "SEARCH_EXHAUSTED_AWAITING_INDEPENDENT_CHECK",
+  "catalogue_sha256": "a8acc2805c86001250b9104dbf41c2804cdb5734823554ac5313141e9d93e17d",
+  "roots": 1616,
+  "nodes": 2249110973,
+  "search_core_seconds": 8368.46,
+  "root_core_seconds": 8368.089879957,
+  "proof": "certificates/no_12_order13.proof.gz",
+  "proof_bytes": 379174621,
+  "proof_sha256": "95244d728ab911ce882b71f39d8edc794670daf5a7457bbf0ba26af43ad35d9e",
+  "original_root_members": "embedded verbatim; recoverable by byte lengths in canonical order"
+}

@@ -1,0 +1,6 @@
+{"type":"start","N":22,"patterns":14,"count_skipped":0,"cases":32}
+{"type":"case","N":22,"pattern":1,"color":7,"S":6,"assignments":84,"represented":84,"nodes":102,"found":false,"elapsed":6.334e-06}
+{"type":"case","N":22,"pattern":2,"color":3,"S":7,"assignments":120,"represented":120,"nodes":91,"found":false,"elapsed":2.4375e-05}
+{"type":"case","N":22,"pattern":3,"color":3,"S":6,"assignments":84,"represented":84,"nodes":102,"found":false,"elapsed":5.3334e-05}
+{"type":"case","N":22,"pattern":4,"color":5,"S":6,"assignments":84,"represented":9,"nodes":14,"found":true,"elapsed":7.2584e-05}
+{"type":"witness","N":22,"arcs":[3,5,5,9],"chords":[[0,3],[0,13],[3,8]]}

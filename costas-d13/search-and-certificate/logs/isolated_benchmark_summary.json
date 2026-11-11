@@ -1,0 +1,124 @@
+{
+  "conditions": "Sequential single-core runs pinned to CPU 3; no other heavy programme jobs; background load recorded; same compiler, frozen binaries, original catalogue/order and global gzip trace output.",
+  "order11": [
+    {
+      "repeat": 1,
+      "nodes": 1678389,
+      "old_seconds": 16.8929,
+      "new_seconds": 6.87509
+    },
+    {
+      "repeat": 2,
+      "nodes": 1678389,
+      "old_seconds": 15.1492,
+      "new_seconds": 6.49175
+    },
+    {
+      "repeat": 3,
+      "nodes": 1678389,
+      "old_seconds": 17.0091,
+      "new_seconds": 6.4019
+    }
+  ],
+  "order11_medians": {
+    "old_seconds": 16.8929,
+    "new_seconds": 6.49175,
+    "speedup": 2.602210497939693
+  },
+  "order13_sample": [
+    {
+      "ordinal": 0,
+      "vertex": 0,
+      "nodes": 24129882,
+      "old_seconds": 286.532,
+      "new_seconds": 81.4996,
+      "speedup": 3.5157473165512467
+    },
+    {
+      "ordinal": 20,
+      "vertex": 31,
+      "nodes": 23179947,
+      "old_seconds": 275.125,
+      "new_seconds": 79.4497,
+      "speedup": 3.4628828050955507
+    },
+    {
+      "ordinal": 40,
+      "vertex": 51,
+      "nodes": 16813835,
+      "old_seconds": 175.921,
+      "new_seconds": 51.3472,
+      "speedup": 3.4261069737006107
+    },
+    {
+      "ordinal": 80,
+      "vertex": 96,
+      "nodes": 15220246,
+      "old_seconds": 161.514,
+      "new_seconds": 60.7552,
+      "speedup": 2.658439113030654
+    },
+    {
+      "ordinal": 160,
+      "vertex": 200,
+      "nodes": 4343907,
+      "old_seconds": 49.6329,
+      "new_seconds": 16.086,
+      "speedup": 3.085471838866095
+    },
+    {
+      "ordinal": 320,
+      "vertex": 592,
+      "nodes": 1,
+      "old_seconds": 0.000459928,
+      "new_seconds": 0.000181145,
+      "speedup": 2.539004664771316
+    },
+    {
+      "ordinal": 640,
+      "vertex": 956,
+      "nodes": 1,
+      "old_seconds": 0.000240689,
+      "new_seconds": 0.000102572,
+      "speedup": 2.346537066645868
+    },
+    {
+      "ordinal": 1280,
+      "vertex": 2216,
+      "nodes": 1,
+      "old_seconds": 3.0801e-05,
+      "new_seconds": 2.9811e-05,
+      "speedup": 1.0332092180738652
+    }
+  ],
+  "order13_totals": {
+    "nodes": 83687820,
+    "old_seconds": 948.729,
+    "new_seconds": 289.14,
+    "speedup": 3.2812097945631877
+  },
+  "full_estimates": {
+    "nodes": 2249110973,
+    "new_measured_core_hours": 2.324572222222222,
+    "old_estimated_core_hours": 7.082528073125806,
+    "old_scenario_core_hours": [
+      5.556204388941261,
+      8.5314756790055
+    ],
+    "scenario_padding": 0.15,
+    "caveat": "Old estimate uses the sample weighted seconds/state. Scenario takes observed per-state extremes from sampled roots with >=100k states plus at least 15% padding; not a confidence interval or mathematical bound."
+  },
+  "cpu3_counters_delta": [
+    120822,
+    0,
+    1712,
+    0,
+    2,
+    0,
+    417,
+    0,
+    0,
+    0
+  ],
+  "cpu3_steal_fraction": 0.0
+}

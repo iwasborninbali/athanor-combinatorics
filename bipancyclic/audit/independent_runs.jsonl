@@ -1,0 +1,33 @@
+{"kind": "census", "k": 2, "m": 2, "labeled": 0, "rotations": 0, "max_cycles": 0}
+{"kind": "census", "k": 2, "m": 3, "labeled": 3, "rotations": 1, "max_cycles": 6}
+{"kind": "census", "k": 2, "m": 4, "labeled": 3, "rotations": 2, "max_cycles": 7}
+{"kind": "census", "k": 3, "m": 2, "labeled": 0, "rotations": 0, "max_cycles": 0}
+{"kind": "census", "k": 3, "m": 3, "labeled": 1, "rotations": 1, "max_cycles": 11}
+{"kind": "census", "k": 3, "m": 4, "labeled": 16, "rotations": 5, "max_cycles": 12}
+{"kind": "census", "k": 3, "m": 5, "labeled": 30, "rotations": 6, "max_cycles": 13}
+{"kind": "census", "k": 3, "m": 6, "labeled": 15, "rotations": 5, "max_cycles": 15}
+{"kind": "census", "k": 4, "m": 2, "labeled": 0, "rotations": 0, "max_cycles": 0}
+{"kind": "census", "k": 4, "m": 3, "labeled": 0, "rotations": 0, "max_cycles": 0}
+{"kind": "census", "k": 4, "m": 4, "labeled": 15, "rotations": 5, "max_cycles": 20}
+{"kind": "census", "k": 4, "m": 5, "labeled": 135, "rotations": 27, "max_cycles": 22}
+{"kind": "census", "k": 4, "m": 6, "labeled": 330, "rotations": 59, "max_cycles": 24}
+{"kind": "census", "k": 4, "m": 7, "labeled": 315, "rotations": 45, "max_cycles": 26}
+{"kind": "census", "k": 4, "m": 8, "labeled": 105, "rotations": 18, "max_cycles": 29}
+{"kind": "exhaustion", "N": 16, "k": 2, "all_labeled_patterns": 6, "rotation_patterns": 3, "cycle_count_pruned_patterns": 2, "admissible_cases": 2, "compositions_evaluated": 112, "solutions": 0, "complete": true, "cpu_seconds": 5e-05}
+{"kind": "exhaustion", "N": 28, "k": 3, "all_labeled_patterns": 62, "rotation_patterns": 17, "cycle_count_pruned_patterns": 14, "admissible_cases": 10, "compositions_evaluated": 22386, "solutions": 0, "complete": true, "cpu_seconds": 0.001073}
+{"kind": "exhaustion", "N": 30, "k": 3, "all_labeled_patterns": 62, "rotation_patterns": 17, "cycle_count_pruned_patterns": 15, "admissible_cases": 8, "compositions_evaluated": 29939, "solutions": 0, "complete": true, "cpu_seconds": 0.001273}
+{"kind": "exhaustion", "N": 32, "k": 3, "all_labeled_patterns": 62, "rotation_patterns": 17, "cycle_count_pruned_patterns": 16, "admissible_cases": 4, "compositions_evaluated": 21672, "solutions": 0, "complete": true, "cpu_seconds": 0.00107}
+{"kind": "exhaustion", "N": 50, "k": 4, "all_labeled_patterns": 900, "rotation_patterns": 154, "cycle_count_pruned_patterns": 134, "admissible_cases": 104, "compositions_evaluated": 45967570, "solutions": 0, "complete": true, "cpu_seconds": 1.84499}
+{"kind": "exhaustion", "N": 52, "k": 4, "all_labeled_patterns": 900, "rotation_patterns": 154, "cycle_count_pruned_patterns": 143, "admissible_cases": 68, "compositions_evaluated": 49131680, "solutions": 0, "complete": true, "cpu_seconds": 2.00095}
+{"kind": "exhaustion", "N": 54, "k": 4, "all_labeled_patterns": 900, "rotation_patterns": 154, "cycle_count_pruned_patterns": 145, "admissible_cases": 60, "compositions_evaluated": 62313030, "solutions": 0, "complete": true, "cpu_seconds": 2.50222}
+{"kind": "exhaustion", "N": 56, "k": 4, "all_labeled_patterns": 900, "rotation_patterns": 154, "cycle_count_pruned_patterns": 150, "admissible_cases": 32, "compositions_evaluated": 51144795, "solutions": 0, "complete": true, "cpu_seconds": 2.12791}
+{"kind": "exhaustion", "N": 58, "k": 4, "all_labeled_patterns": 900, "rotation_patterns": 154, "cycle_count_pruned_patterns": 150, "admissible_cases": 32, "compositions_evaluated": 66594411, "solutions": 0, "complete": true, "cpu_seconds": 2.77369}
+{"kind": "exhaustion", "N": 60, "k": 4, "all_labeled_patterns": 900, "rotation_patterns": 154, "cycle_count_pruned_patterns": 152, "admissible_cases": 16, "compositions_evaluated": 43070742, "solutions": 0, "complete": true, "cpu_seconds": 1.79887}
+{"kind": "exhaustion", "N": 62, "k": 4, "all_labeled_patterns": 900, "rotation_patterns": 154, "cycle_count_pruned_patterns": 154, "admissible_cases": 0, "compositions_evaluated": 0, "solutions": 0, "complete": true, "cpu_seconds": 0.015386}
+{"kind": "exhaustion", "N": 64, "k": 4, "all_labeled_patterns": 900, "rotation_patterns": 154, "cycle_count_pruned_patterns": 154, "admissible_cases": 0, "compositions_evaluated": 0, "solutions": 0, "complete": true, "cpu_seconds": 0.015544}
+{"kind": "solution", "N": 14, "k": 2, "arcs": [3, 6, 5], "endpoint_chords": [[0, 1], [0, 2]]}
+{"kind": "exhaustion", "N": 14, "k": 2, "all_labeled_patterns": 1, "rotation_patterns": 1, "cycle_count_pruned_patterns": 0, "admissible_cases": 1, "compositions_evaluated": 3, "solutions": 1, "complete": false, "cpu_seconds": 6.3e-05}
+{"kind": "solution", "N": 26, "k": 3, "arcs": [3, 5, 1, 4, 13], "endpoint_chords": [[0, 1], [0, 3], [2, 4]]}
+{"kind": "exhaustion", "N": 26, "k": 3, "all_labeled_patterns": 19, "rotation_patterns": 8, "cycle_count_pruned_patterns": 6, "admissible_cases": 3, "compositions_evaluated": 817, "solutions": 1, "complete": false, "cpu_seconds": 0.000172}
+{"kind": "solution", "N": 46, "k": 4, "arcs": [1, 2, 5, 12, 21, 4, 1], "endpoint_chords": [[0, 2], [0, 5], [1, 4], [3, 6]]}
+{"kind": "exhaustion", "N": 46, "k": 4, "all_labeled_patterns": 548, "rotation_patterns": 131, "cycle_count_pruned_patterns": 105, "admissible_cases": 76, "compositions_evaluated": 6345796, "solutions": 1, "complete": false, "cpu_seconds": 0.237904}

@@ -1,0 +1,11 @@
+{
+  "python": "3.12.3",
+  "python_assertions_enabled": true,
+  "machine": "x86_64",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpus": 4,
+  "cpu_model": "AMD EPYC Processor (with IBPB)",
+  "flags_common": "-O3 -march=native -DNDEBUG -std=c++17 -DENABLE_SMALL_KERNEL -DDISABLE_HOLE_MATCHING",
+  "flags_new": "-DLOCAL_THRESHOLD=512",
+  "link": "-lz"
+}

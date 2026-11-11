@@ -1,0 +1,20 @@
+{
+  "order": 13,
+  "target": 12,
+  "arrays": 12828,
+  "full": false,
+  "amo": "binary",
+  "array_variables": [
+    1,
+    12828
+  ],
+  "hole_variables": [
+    12829,
+    12997
+  ],
+  "variables": 27667,
+  "clauses": 1779552,
+  "symmetry": true,
+  "catalogue_sha256": "a8acc2805c86001250b9104dbf41c2804cdb5734823554ac5313141e9d93e17d",
+  "cnf_sha256": "6716f12f7e6c25b2845dc8e49ba145cbddc12604ab06e4780e80665fe637e6b7"
+}

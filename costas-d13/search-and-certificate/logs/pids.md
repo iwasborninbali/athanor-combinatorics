@@ -1,0 +1,22 @@
+# VM process register
+
+All long jobs use `setsid nohup taskset -c 2` or `-c 3` and redirect stdin/out/err.
+
+- Initial pilot: detached launcher PID 993382, session script PID 993383. `bash pilot.sh`, CPU 2. Includes compilation, order-11 search/check, order-13 root 0 for baseline and local64 kernel in sequence. Remote file listings used their local timezone; report times are UTC and durations are monotonic.
+- Generic local-mask pilot: PID 993739, CPU 3. Tests thresholds 128 and 256 sequentially, full order 11 and root 0 at order 13. Runs concurrently with initial pilot; no third heavy job.
+- Stopped the two initial pilot groups (993383 and 994080) after complete order-11 measurements; their unfinished order-13 trials are not exclusions. The pair-gathered generic mask pilot 993739 was also stopped after it showed a slowdown.
+- Fast scoring pilots: PIDs 994458 (threshold 256, CPU 2) and 994459 (threshold 512, CPU 3). Full order 11 and order-13 root ordinal 0, with traces.
+
+- Paired benchmark / even production sequence: PID 994857, CPU 2.
+- Validation / odd production sequence: PID 994858, CPU 3.
+- Completion merger and unchanged full C++ verifier: PID 995214, CPU 2. Waits without model calls for both complete shard summaries; verification starts after both search jobs finish.
+- Additional independent Python audit, adversarial proof checks, sanitizer exercises, and optional order-13 size-11 witness: PID 995441, CPU 3. Waits for the odd shard to exit before doing computation. The sanitizer order-13 run is intentionally only a 15-second prefix.
+- Superseded waiting finisher 995214 with `finish_parallel.sh` (PID to be recorded below). The larger measured state projection makes two-core independent verification preferable. It uses the copied independent checker with only explicit modulo-root selection and scoped completion marker changes, tests that adapter on the fully verified order-11 trace, then audits both order-13 scopes in parallel. The combined certificate remains in the unchanged full-checker format. Duplicate per-root files are deleted only after their exact compressed members have been verified inside that combined certificate.
+- Parallel proof finisher: PID 996130, CPU 2 while waiting/merging; launches one independent scoped checker on each of CPUs 2 and 3 only after searches and extra checks have exited. Actual child PIDs will appear in remote `logs/check13.pids`.
+- Deadline guard: PID 996310, CPU 2, sleeping between light checks. Stops only matching process groups from this task at 03:08 UTC if still running; exits early after full independent verification.
+- Replaced the waiting scope finisher after adding strict per-root boundary validation: current PID 1005339 (CPU 2 controller, audits on CPUs 2/3). Superseded PID 996130 was stopped while still waiting, before any checker ran.
+- Final isolated benchmark controller: PID 1005340, CPU 2. Waits for complete independent verification, then runs both programs sequentially with CPU 3 idle. It has its own remaining-wall-time timeout and records its child PID in remote `logs/isolated_child.pid`.
+- Current deadline guard: PID 1005343, CPU 2; supersedes sleeping guard 996310. Current process groups are recorded in remote `logs/active_groups.json`.
+- Full independent scoped audit jobs started at about 22:58 UTC: even wrapper PID 1060056 (CPU 2), odd wrapper PID 1060057 (CPU 3). Both run the independent `check_roots` decoder through a SHA-checked stream of embedded root members. Parent remains 1005339. Their exact scopes, root counts and per-root verified node counts will be checked before marking the result verified.
+- Local archive transfer (reading only, rate capped at 8192 kbit/s): Mac PID 91587, detached with POSIX setsid via `start_new_session=True` and nohup. Copies the immutable 379,174,621-byte proof while VM audits run. `logs/proof_transfer.active` on the VM blocks the isolated benchmark until this copy has exited and its local hash is checked, then the marker is removed. This is file I/O, not a Mac search job.
+- Audit balancing helper: VM PID 1118811, CPU 2, lightweight; launched 2026-11-11 00:08:42 UTC after CPU-2 contention. It changes affinity only for our registered decoders 1060060/1060063 in process group1005339, pins one to each of2/3, and gives the larger remaining forest CPU3. It exits when both decoders exit. It never changes either external `scan` process. Scientific decoder code and certificate bytes are unchanged. Logs: audit_balancing.jsonl and checker_affinity_change.json.

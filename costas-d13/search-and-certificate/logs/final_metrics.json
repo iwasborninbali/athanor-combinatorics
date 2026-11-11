@@ -1,0 +1,11 @@
+{
+  "held_out_gain": 3.189167265182862,
+  "cpu_sample_gain": 3.25881007657923,
+  "old_estimated_cpu_hours": 7.020797668935906,
+  "new_search_cpu_hours": 2.306983333333333,
+  "new_search_thread_hours": 2.324572222222222,
+  "max_root_ordinal": 50,
+  "max_root_seconds": 168.367,
+  "mac_rate_only_hours": 3.3770435030030033,
+  "estimated_four_core_search_minutes": 34.868583333333326
+}

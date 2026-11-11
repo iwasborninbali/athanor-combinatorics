@@ -1,0 +1,18 @@
+{
+  "order": 13,
+  "target": 12,
+  "arrays": 12828,
+  "array_variables": [
+    1,
+    12828
+  ],
+  "hole_variables": [
+    12829,
+    12997
+  ],
+  "variables": 192901,
+  "clauses": 550923,
+  "symmetry": true,
+  "catalogue_sha256": "a8acc2805c86001250b9104dbf41c2804cdb5734823554ac5313141e9d93e17d",
+  "cnf_sha256": "d03c422df64f46121e9cccd2f4b3d6418d402d764987d99d8732ac4b2c8e0e98"
+}

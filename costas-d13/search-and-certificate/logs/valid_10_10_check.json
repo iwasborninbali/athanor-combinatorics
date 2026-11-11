@@ -1,0 +1,8 @@
+{
+  "verified": true,
+  "order": 10,
+  "size": 10,
+  "occupied_cells": 100,
+  "witness_sha256": "6648b2b27131f1d645d11e9ee4dad270d838ee0f9dc80b117feb2ebc38c02e73",
+  "catalogue_sha256": "f7adb2f1f9c184f9aed90830ae5bf90e7c00d3e82f55ecd7786f2294da874ae0"
+}

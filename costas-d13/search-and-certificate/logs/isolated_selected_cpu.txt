@@ -1,0 +1,2 @@
+pid 1143547's current affinity list: 2
+pid 1143547's new affinity list: 3

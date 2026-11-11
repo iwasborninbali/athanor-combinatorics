@@ -1,0 +1,5 @@
+{"type":"start","N":26,"patterns":14,"count_skipped":8,"cases":17}
+{"type":"case","N":26,"pattern":2,"color":3,"S":9,"assignments":220,"represented":220,"nodes":136,"found":false,"elapsed":8.041e-06}
+{"type":"case","N":26,"pattern":6,"color":7,"S":8,"assignments":495,"represented":495,"nodes":325,"found":false,"elapsed":3.6625e-05}
+{"type":"case","N":26,"pattern":6,"color":13,"S":9,"assignments":715,"represented":101,"nodes":100,"found":true,"elapsed":5.5416e-05}
+{"type":"witness","N":26,"arcs":[3,5,1,4,13],"chords":[[0,3],[0,9],[8,13]]}

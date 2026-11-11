@@ -1,0 +1,82 @@
+[
+  {
+    "file": "certificates/excluded_initial_roots13.boundaries.txt",
+    "bytes": 84,
+    "sha256": "5682887e814c80742ccdebe6736970d030e68faa8bcd442fcf300bd2d6903ca7"
+  },
+  {
+    "file": "certificates/excluded_initial_roots13.proof.gz",
+    "bytes": 379531162,
+    "sha256": "8028d3d556a16a5d68558a8c125171f329d4f17f81b6f94d5b7b2109f0fd470c"
+  },
+  {
+    "file": "certificates/extra_initial_remaining13.boundaries.txt",
+    "bytes": 601,
+    "sha256": "014a04e9234fab85cef801cfcf9f50b0dbc3dbb3c3144e8f2970c200c7798ae1"
+  },
+  {
+    "file": "certificates/extra_initial_remaining13.proof.gz",
+    "bytes": 50921767,
+    "sha256": "4caedb57c700ddfd2fbd5e76a9680a2ff6861b7c738da293419e6a938897c7dc"
+  },
+  {
+    "file": "certificates/full_5_direct.drat.gz",
+    "bytes": 67,
+    "sha256": "60151cd5976ddbf264c5652d1cca44b900107dfb4ff3f730c123c94536053c9d"
+  },
+  {
+    "file": "certificates/full_5_sym.drat.gz",
+    "bytes": 67,
+    "sha256": "823df94fa14359103d95f3bfa7542837eb95260de586f414ed3b7e82b012b49f"
+  },
+  {
+    "file": "certificates/full_5_sym_binary.drat.gz",
+    "bytes": 67,
+    "sha256": "a6d2f9f3f261552132db39571cba428771ae4fdcabbf457f71e2394c68bfce58"
+  },
+  {
+    "file": "certificates/no_full_11.proof.gz",
+    "bytes": 776921,
+    "sha256": "efed9e6ea27fbe9577b2e96a5a2867133d3f8099b8e0c70ce1198710cafff65e"
+  },
+  {
+    "file": "certificates/no_full_5.proof.gz",
+    "bytes": 35,
+    "sha256": "46516b7a20bef781533a8ebe1384d8f8d0a8c84b3fb517d832073cc1ae840f72"
+  },
+  {
+    "file": "certificates/no_full_7.proof.gz",
+    "bytes": 77,
+    "sha256": "416f3484f0d8c90e29c9e1e45007ababef0863277b0b4ee336585b227a515b61"
+  },
+  {
+    "file": "certificates/no_full_9.proof.gz",
+    "bytes": 994,
+    "sha256": "748f46207c350d81cf7228ad6f520e9403150ee3d522b999443d34fa8f6ad56b"
+  },
+  {
+    "file": "certificates/witness_10_10.json",
+    "bytes": 1217,
+    "sha256": "1ec950cf9403cd4cdb8442f36820c2f73f8e1919965e2fcc7a0901111048e241"
+  },
+  {
+    "file": "certificates/witness_12_12.json",
+    "bytes": 467,
+    "sha256": "d7789de69cb3774280a31101a0d1162cf0be377aab557c3f32508a5c567a9702"
+  },
+  {
+    "file": "certificates/witness_14_12.json",
+    "bytes": 1930,
+    "sha256": "01754f591f194f34c87bda128bb80a70ee81bb38bebf8c54b75b2c219b2d2cc6"
+  },
+  {
+    "file": "certificates/witness_17_12.json",
+    "bytes": 2291,
+    "sha256": "99e28e9ffdb5a45c290bdbdf4d23e14206af7f821a37e1e700e8e202f9e6491a"
+  },
+  {
+    "file": "certificates/witness_9_8.json",
+    "bytes": 263,
+    "sha256": "60caaa12db1e14e5c7c34e4118213c06eaf1e1f43c496594d422fd3bb8e2cf95"
+  }
+]

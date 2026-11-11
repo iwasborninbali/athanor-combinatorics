@@ -1,0 +1,7 @@
+START seed=1 cardinality=104 seconds=600
+BEST uncovered=7 iteration=0 seconds=0.000227083
+STATUS iteration=1 seconds=0.000249166 uncovered=4 best=7 restarts=1
+BEST uncovered=4 iteration=1 seconds=0.000366291
+BEST uncovered=3 iteration=82288 seconds=0.723189
+BEST uncovered=0 iteration=82321 seconds=0.72355
+SOLUTION

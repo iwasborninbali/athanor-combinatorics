@@ -1,0 +1,4 @@
+{"type":"start","N":28,"patterns":103,"count_skipped":0,"cases":337}
+{"type":"case","N":28,"pattern":2,"color":3,"S":9,"assignments":220,"represented":220,"nodes":254,"found":false,"elapsed":1.3541e-05}
+{"type":"case","N":28,"pattern":3,"color":5,"S":8,"assignments":165,"represented":2,"nodes":6,"found":true,"elapsed":3e-05}
+{"type":"witness","N":28,"arcs":[3,3,7,15],"chords":[[0,3],[0,13],[3,6],[6,13]]}

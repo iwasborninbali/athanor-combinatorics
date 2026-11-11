@@ -1,0 +1,1 @@
+pid 1143547's current affinity mask: 8

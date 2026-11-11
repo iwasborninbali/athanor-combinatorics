@@ -1,0 +1,683 @@
+[
+  {
+    "file": "exclusion48.bpc.gz",
+    "sha256": "5ff0372c3b3b1eab3a51f1acc01cd08bf3a2aedb99781b52df1e05806eb11a46",
+    "N": 48,
+    "k": 4,
+    "patterns_by_endpoints": {
+      "4": 4,
+      "5": 17,
+      "6": 38,
+      "7": 27,
+      "8": 17
+    },
+    "maximum_kernel_cycles": 29,
+    "cases": 110,
+    "assignments": 35466805,
+    "nodes": 10947278,
+    "seconds": 24.222970958042424,
+    "verdict": "EXCLUSION VERIFIED",
+    "case_counts": [
+      {
+        "pattern": 36,
+        "color": 7,
+        "assignments": 33649,
+        "nodes": 8244
+      },
+      {
+        "pattern": 36,
+        "color": 21,
+        "assignments": 53130,
+        "nodes": 26209
+      },
+      {
+        "pattern": 44,
+        "color": 11,
+        "assignments": 42504,
+        "nodes": 13351
+      },
+      {
+        "pattern": 44,
+        "color": 25,
+        "assignments": 42504,
+        "nodes": 15339
+      },
+      {
+        "pattern": 53,
+        "color": 7,
+        "assignments": 42504,
+        "nodes": 17310
+      },
+      {
+        "pattern": 53,
+        "color": 30,
+        "assignments": 42504,
+        "nodes": 20855
+      },
+      {
+        "pattern": 54,
+        "color": 7,
+        "assignments": 42504,
+        "nodes": 18841
+      },
+      {
+        "pattern": 54,
+        "color": 14,
+        "assignments": 42504,
+        "nodes": 23425
+      },
+      {
+        "pattern": 55,
+        "color": 7,
+        "assignments": 42504,
+        "nodes": 17626
+      },
+      {
+        "pattern": 55,
+        "color": 14,
+        "assignments": 42504,
+        "nodes": 17305
+      },
+      {
+        "pattern": 56,
+        "color": 7,
+        "assignments": 42504,
+        "nodes": 13698
+      },
+      {
+        "pattern": 56,
+        "color": 22,
+        "assignments": 53130,
+        "nodes": 23137
+      },
+      {
+        "pattern": 57,
+        "color": 11,
+        "assignments": 53130,
+        "nodes": 20687
+      },
+      {
+        "pattern": 57,
+        "color": 30,
+        "assignments": 42504,
+        "nodes": 19891
+      },
+      {
+        "pattern": 66,
+        "color": 15,
+        "assignments": 100947,
+        "nodes": 12331
+      },
+      {
+        "pattern": 66,
+        "color": 29,
+        "assignments": 134596,
+        "nodes": 44752
+      },
+      {
+        "pattern": 66,
+        "color": 43,
+        "assignments": 177100,
+        "nodes": 86483
+      },
+      {
+        "pattern": 66,
+        "color": 57,
+        "assignments": 134596,
+        "nodes": 47738
+      },
+      {
+        "pattern": 69,
+        "color": 23,
+        "assignments": 134596,
+        "nodes": 41251
+      },
+      {
+        "pattern": 69,
+        "color": 29,
+        "assignments": 134596,
+        "nodes": 36687
+      },
+      {
+        "pattern": 69,
+        "color": 51,
+        "assignments": 134596,
+        "nodes": 36280
+      },
+      {
+        "pattern": 69,
+        "color": 57,
+        "assignments": 134596,
+        "nodes": 36005
+      },
+      {
+        "pattern": 79,
+        "color": 15,
+        "assignments": 134596,
+        "nodes": 59928
+      },
+      {
+        "pattern": 79,
+        "color": 30,
+        "assignments": 134596,
+        "nodes": 58971
+      },
+      {
+        "pattern": 79,
+        "color": 39,
+        "assignments": 177100,
+        "nodes": 85299
+      },
+      {
+        "pattern": 79,
+        "color": 54,
+        "assignments": 177100,
+        "nodes": 83164
+      },
+      {
+        "pattern": 80,
+        "color": 15,
+        "assignments": 134596,
+        "nodes": 11254
+      },
+      {
+        "pattern": 80,
+        "color": 30,
+        "assignments": 134596,
+        "nodes": 3402
+      },
+      {
+        "pattern": 80,
+        "color": 43,
+        "assignments": 230230,
+        "nodes": 93524
+      },
+      {
+        "pattern": 80,
+        "color": 58,
+        "assignments": 177100,
+        "nodes": 67370
+      },
+      {
+        "pattern": 81,
+        "color": 15,
+        "assignments": 134596,
+        "nodes": 46410
+      },
+      {
+        "pattern": 81,
+        "color": 27,
+        "assignments": 177100,
+        "nodes": 59220
+      },
+      {
+        "pattern": 81,
+        "color": 46,
+        "assignments": 177100,
+        "nodes": 84563
+      },
+      {
+        "pattern": 81,
+        "color": 58,
+        "assignments": 177100,
+        "nodes": 86246
+      },
+      {
+        "pattern": 83,
+        "color": 23,
+        "assignments": 177100,
+        "nodes": 52194
+      },
+      {
+        "pattern": 83,
+        "color": 30,
+        "assignments": 134596,
+        "nodes": 34244
+      },
+      {
+        "pattern": 83,
+        "color": 51,
+        "assignments": 177100,
+        "nodes": 53246
+      },
+      {
+        "pattern": 83,
+        "color": 58,
+        "assignments": 177100,
+        "nodes": 51022
+      },
+      {
+        "pattern": 84,
+        "color": 7,
+        "assignments": 134596,
+        "nodes": 10831
+      },
+      {
+        "pattern": 84,
+        "color": 30,
+        "assignments": 134596,
+        "nodes": 13380
+      },
+      {
+        "pattern": 84,
+        "color": 35,
+        "assignments": 177100,
+        "nodes": 39118
+      },
+      {
+        "pattern": 84,
+        "color": 58,
+        "assignments": 177100,
+        "nodes": 32657
+      },
+      {
+        "pattern": 85,
+        "color": 15,
+        "assignments": 134596,
+        "nodes": 26266
+      },
+      {
+        "pattern": 85,
+        "color": 30,
+        "assignments": 134596,
+        "nodes": 47477
+      },
+      {
+        "pattern": 85,
+        "color": 45,
+        "assignments": 230230,
+        "nodes": 122123
+      },
+      {
+        "pattern": 85,
+        "color": 60,
+        "assignments": 134596,
+        "nodes": 48554
+      },
+      {
+        "pattern": 89,
+        "color": 23,
+        "assignments": 346104,
+        "nodes": 182208
+      },
+      {
+        "pattern": 89,
+        "color": 29,
+        "assignments": 346104,
+        "nodes": 178295
+      },
+      {
+        "pattern": 89,
+        "color": 51,
+        "assignments": 346104,
+        "nodes": 180348
+      },
+      {
+        "pattern": 89,
+        "color": 57,
+        "assignments": 346104,
+        "nodes": 178882
+      },
+      {
+        "pattern": 89,
+        "color": 71,
+        "assignments": 346104,
+        "nodes": 178882
+      },
+      {
+        "pattern": 89,
+        "color": 77,
+        "assignments": 480700,
+        "nodes": 249078
+      },
+      {
+        "pattern": 89,
+        "color": 99,
+        "assignments": 346104,
+        "nodes": 178295
+      },
+      {
+        "pattern": 89,
+        "color": 105,
+        "assignments": 480700,
+        "nodes": 249721
+      },
+      {
+        "pattern": 91,
+        "color": 15,
+        "assignments": 245157,
+        "nodes": 33184
+      },
+      {
+        "pattern": 91,
+        "color": 29,
+        "assignments": 346104,
+        "nodes": 71738
+      },
+      {
+        "pattern": 91,
+        "color": 43,
+        "assignments": 480700,
+        "nodes": 243544
+      },
+      {
+        "pattern": 91,
+        "color": 57,
+        "assignments": 346104,
+        "nodes": 128017
+      },
+      {
+        "pattern": 91,
+        "color": 71,
+        "assignments": 346104,
+        "nodes": 128017
+      },
+      {
+        "pattern": 91,
+        "color": 85,
+        "assignments": 657800,
+        "nodes": 321701
+      },
+      {
+        "pattern": 91,
+        "color": 99,
+        "assignments": 346104,
+        "nodes": 71738
+      },
+      {
+        "pattern": 91,
+        "color": 113,
+        "assignments": 346104,
+        "nodes": 45639
+      },
+      {
+        "pattern": 97,
+        "color": 23,
+        "assignments": 480700,
+        "nodes": 235014
+      },
+      {
+        "pattern": 97,
+        "color": 30,
+        "assignments": 346104,
+        "nodes": 171657
+      },
+      {
+        "pattern": 97,
+        "color": 51,
+        "assignments": 480700,
+        "nodes": 235073
+      },
+      {
+        "pattern": 97,
+        "color": 58,
+        "assignments": 480700,
+        "nodes": 233891
+      },
+      {
+        "pattern": 97,
+        "color": 71,
+        "assignments": 480700,
+        "nodes": 235194
+      },
+      {
+        "pattern": 97,
+        "color": 78,
+        "assignments": 480700,
+        "nodes": 235649
+      },
+      {
+        "pattern": 97,
+        "color": 99,
+        "assignments": 480700,
+        "nodes": 233404
+      },
+      {
+        "pattern": 97,
+        "color": 106,
+        "assignments": 657800,
+        "nodes": 313594
+      },
+      {
+        "pattern": 98,
+        "color": 15,
+        "assignments": 346104,
+        "nodes": 11481
+      },
+      {
+        "pattern": 98,
+        "color": 30,
+        "assignments": 346104,
+        "nodes": 9186
+      },
+      {
+        "pattern": 98,
+        "color": 43,
+        "assignments": 657800,
+        "nodes": 269860
+      },
+      {
+        "pattern": 98,
+        "color": 58,
+        "assignments": 480700,
+        "nodes": 141058
+      },
+      {
+        "pattern": 98,
+        "color": 71,
+        "assignments": 480700,
+        "nodes": 146770
+      },
+      {
+        "pattern": 98,
+        "color": 86,
+        "assignments": 657800,
+        "nodes": 273068
+      },
+      {
+        "pattern": 98,
+        "color": 99,
+        "assignments": 480700,
+        "nodes": 14869
+      },
+      {
+        "pattern": 98,
+        "color": 114,
+        "assignments": 480700,
+        "nodes": 14737
+      },
+      {
+        "pattern": 99,
+        "color": 15,
+        "assignments": 346104,
+        "nodes": 57588
+      },
+      {
+        "pattern": 99,
+        "color": 30,
+        "assignments": 346104,
+        "nodes": 57338
+      },
+      {
+        "pattern": 99,
+        "color": 39,
+        "assignments": 480700,
+        "nodes": 95844
+      },
+      {
+        "pattern": 99,
+        "color": 54,
+        "assignments": 480700,
+        "nodes": 93278
+      },
+      {
+        "pattern": 99,
+        "color": 75,
+        "assignments": 657800,
+        "nodes": 162046
+      },
+      {
+        "pattern": 99,
+        "color": 90,
+        "assignments": 657800,
+        "nodes": 169471
+      },
+      {
+        "pattern": 99,
+        "color": 99,
+        "assignments": 480700,
+        "nodes": 93013
+      },
+      {
+        "pattern": 99,
+        "color": 114,
+        "assignments": 480700,
+        "nodes": 89853
+      },
+      {
+        "pattern": 100,
+        "color": 15,
+        "assignments": 346104,
+        "nodes": 1
+      },
+      {
+        "pattern": 100,
+        "color": 30,
+        "assignments": 346104,
+        "nodes": 36645
+      },
+      {
+        "pattern": 100,
+        "color": 45,
+        "assignments": 657800,
+        "nodes": 153806
+      },
+      {
+        "pattern": 100,
+        "color": 60,
+        "assignments": 346104,
+        "nodes": 1
+      },
+      {
+        "pattern": 100,
+        "color": 71,
+        "assignments": 480700,
+        "nodes": 65083
+      },
+      {
+        "pattern": 100,
+        "color": 86,
+        "assignments": 657800,
+        "nodes": 225505
+      },
+      {
+        "pattern": 100,
+        "color": 101,
+        "assignments": 657800,
+        "nodes": 140472
+      },
+      {
+        "pattern": 100,
+        "color": 116,
+        "assignments": 480700,
+        "nodes": 55550
+      },
+      {
+        "pattern": 101,
+        "color": 15,
+        "assignments": 346104,
+        "nodes": 1
+      },
+      {
+        "pattern": 101,
+        "color": 29,
+        "assignments": 480700,
+        "nodes": 33318
+      },
+      {
+        "pattern": 101,
+        "color": 46,
+        "assignments": 480700,
+        "nodes": 108404
+      },
+      {
+        "pattern": 101,
+        "color": 60,
+        "assignments": 346104,
+        "nodes": 1
+      },
+      {
+        "pattern": 101,
+        "color": 71,
+        "assignments": 480700,
+        "nodes": 105573
+      },
+      {
+        "pattern": 101,
+        "color": 85,
+        "assignments": 888030,
+        "nodes": 329462
+      },
+      {
+        "pattern": 101,
+        "color": 102,
+        "assignments": 480700,
+        "nodes": 92118
+      },
+      {
+        "pattern": 101,
+        "color": 116,
+        "assignments": 480700,
+        "nodes": 66473
+      },
+      {
+        "pattern": 102,
+        "color": 15,
+        "assignments": 346104,
+        "nodes": 17628
+      },
+      {
+        "pattern": 102,
+        "color": 30,
+        "assignments": 346104,
+        "nodes": 36678
+      },
+      {
+        "pattern": 102,
+        "color": 45,
+        "assignments": 657800,
+        "nodes": 244696
+      },
+      {
+        "pattern": 102,
+        "color": 60,
+        "assignments": 346104,
+        "nodes": 102433
+      },
+      {
+        "pattern": 102,
+        "color": 75,
+        "assignments": 657800,
+        "nodes": 338769
+      },
+      {
+        "pattern": 102,
+        "color": 90,
+        "assignments": 657800,
+        "nodes": 358743
+      },
+      {
+        "pattern": 102,
+        "color": 105,
+        "assignments": 657800,
+        "nodes": 248934
+      },
+      {
+        "pattern": 102,
+        "color": 120,
+        "assignments": 346104,
+        "nodes": 106853
+      }
+    ]
+  }
+]

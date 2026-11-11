@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "order": 11,
+  "excluded_clique_size": 11,
+  "nodes": 1678389,
+  "roots": 555,
+  "seconds": 85.41255821986124,
+  "catalogue_sha256": "76dfe38baccac06488a6b2b75e0e0c9bb081436389b7f7eec38a88d87b2f2f44",
+  "proof_sha256": "365c1ac658dcfe36fd7700e4038c619c15c4c284c33fdbd3efdcf8d7ba571d26"
+}

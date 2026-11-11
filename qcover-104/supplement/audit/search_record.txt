@@ -1,0 +1,136 @@
+Independent priority audit, 11 November 2026, begun approximately 01:11 UTC.
+The mathematical report is [verify.md](verify.md). Searches were read-only;
+all API use was through public, unauthenticated free access. No person was
+contacted.
+
+**Scope and interpretation.** The target was a published or preprinted
+upper bound at most 104 for C_2(6,3,2), and a published lower bound above 99.
+Parameter translations searched were the conventional T_2(6,4,3), Pavese's
+reversed Turán notation T_2(6,3,4), and (3,2)-blocking sets of planes in
+PG(5,2). I also checked the complement problem
+A_2(6,3,2;14) = B_2(6,3,2;15) >= 1291. Ordinary set-covering numbers,
+distance-constrained packing codes, point blocking sets, and metric covering
+radii were distinguished by their definitions.
+
+**Search routes.** General web search used the following query families;
+the examples below are actual submitted queries, not a list of hypothetical
+future searches. Many exact mathematical strings yielded irrelevant results,
+which is why the audit also used primary PDFs, author lists and citation APIs.
+
+| Purpose | Representative submitted queries |
+|---|---|
+| Exact upper-bound cell | `"C_2(6,3,2)" covering 104`; `"covering" "C_2(6, 3, 2)"`; `"covering" "C2 (6, 3, 2)"`; `"q-covering" "6,3,2" "104"` |
+| Numerical predecessors | `"q-covering designs" 104 105`; `"q-covering designs" "105" "104" -site:scribd.com`; `"q-covering" "103"`; `"covering" "651" "104"`; `"covering" "651" "105"` |
+| Lower-bound improvements | `"q-covering" "lower bound" "100"`; `"q-covering" "lower" "99"`; `"covering designs" "99" "100" "Etzion"`; `"q-covering designs" "lower bounds" 2024`; the corresponding 2025 query |
+| Dual terms | `"q-Turán" "6, 4, 3"`; `"q-Turan" "6,4,3"`; `"q-Turán" "6,3,4"`; `"q-Turán" "planes" "solids"`; `"blocking solids" "planes"`; `"planes" "every solid" "blocking"`; `"planes" "solids" "blocking sets" "PG(5"` |
+| Complementary packings | `"A_2" "6,3,2;14"`; `"subspace packing" "1291"`; `"covering Grassmannian codes" "1291"`; `"covering Grassmannian" "6" "15"`; `"subspace packings" "2025"`; the corresponding 2026 query |
+| Tables | `"q-covering designs" "tables"`; `"q-covering" database`; `"q-covering designs" "table" "2025"`; `"q-covering designs" site:subspacecodes.uni-bayreuth.de`; `"q-covering designs" site:math.uni-bayreuth.de`; `"q-analogs" "covering" "tables" Etzion` |
+| Named authors | Separate `"q-covering designs"` queries with Braun, Kiermaier, Kurz and Wassermann; date-limited variants after 2016; Cossidente and Pavese queries after 2020/2021; searches for the authors' own publication lists |
+| arXiv and recent work | `"q-covering" site:arxiv.org`; `"q-Turan designs" site:arxiv.org`; `"q-covering designs" 2017 2018 2019 site:arxiv.org`; corresponding 2020–2022 and 2023–2026 queries; `"subspace covering" designs bounds 2024 2025 2026` |
+
+**Direct arXiv API searches.** The complete XML responses are saved locally.
+For the two broad date-limited queries, I screened all returned titles and
+read the abstracts of plausible finite-geometry/coding leads. The numerical
+total is the API's reported total, not a count of relevant papers.
+
+| Saved response | Search expression | Total |
+|---|---|---:|
+| [arxiv_api_covering.xml](sources/arxiv_api_covering.xml) | `all:"covering designs"` | 55 |
+| [arxiv_api_qcover_correct.xml](sources/arxiv_api_qcover_correct.xml) | `all:"q-covering"` | 14 |
+| [arxiv_api_turan_correct.xml](sources/arxiv_api_turan_correct.xml) | `all:"Turan" AND all:"designs"` | 52 |
+| [arxiv_api_turan_unicode_correct.xml](sources/arxiv_api_turan_unicode_correct.xml) | `all:"Turán" AND all:"subspaces"` | 7 |
+| [arxiv_api_subspace_cover_co.xml](sources/arxiv_api_subspace_cover_co.xml) | `(all:subspace OR all:subspaces OR all:Grassmannian) AND (all:covering OR all:coverings) AND (cat:math.CO OR cat:cs.IT) AND submittedDate:[201701010000 TO 202611112359]` | 88 |
+| [arxiv_api_blocking_co.xml](sources/arxiv_api_blocking_co.xml) | `all:blocking AND (all:plane OR all:planes OR all:solid OR all:solids) AND cat:math.CO AND submittedDate:[201701010000 TO 202611112359]` | 67 |
+| [arxiv_api_covering_grassmann.xml](sources/arxiv_api_covering_grassmann.xml) | `all:"covering Grassmannian"` | 2 |
+| [arxiv_api_subspace_packings.xml](sources/arxiv_api_subspace_packings.xml) | `all:"subspace packings"` | 13 |
+
+The unfiltered subspace-cover and blocking-plane searches returned 446 and
+783 records respectively. Only the first 200 of each were fetched; those are
+not claimed as complete searches. The subsequent category-restricted queries
+above returned all 88 and 67 matches, covering the requested years. The
+separate q-covering query is necessary because not every relevant abstract
+uses the literal word 'subspace'. The arXiv search HTML was also retrieved
+directly, although the browser tool's route to it failed.
+
+**Forward citations.** These live queries were independently retrieved:
+
+- [Etzion 2014: 13 records](https://api.openalex.org/works?filter=cites:W2040937622&per-page=200), saved as [openalex_citers_etzion2014.json](sources/openalex_citers_etzion2014.json).
+- [Cossidente–Pavese 2016: two records](https://api.openalex.org/works?filter=cites:W2474388680&per-page=200), saved as [openalex_citers_cossidente2016.json](sources/openalex_citers_cossidente2016.json).
+- [Pavese 2020: one record](https://api.openalex.org/works?filter=cites:W2940507335&per-page=200), saved as [openalex_citers_pavese2020.json](sources/openalex_citers_pavese2020.json).
+
+The post-2016 citers of the first source were Grassmannian Codes With New
+Distance Measures for Network Coding; Divisible Linear Rank Metric Codes;
+A New Approach for Examining q-Steiner Systems; Avoiding intersections of
+given size in finite affine spaces AG(n,2); Lengths of divisible codes with
+restricted column multiplicities; Blocking planes by lines in PG(n,q);
+On q-Covering Designs; and On projective q^r-divisible codes. The other two
+source citation lists contain Pavese 2020 and/or Kovács–Nagy–Szabó 2025.
+The API metadata and abstracts were screened. On-topic full texts and the
+divisible-code texts were retrieved and searched; the affine intersection
+paper was excluded by its abstract's different problem definition. An absence
+from these lists alone was never used to infer novelty.
+
+**Primary-source checks and exclusions beyond the baseline.**
+
+| Paper | Check |
+|---|---|
+| [Etzion–Hooker, Residual q-Fano Planes and Related Structures](https://arxiv.org/abs/1704.07714), 2017 preprint / 2018 journal | Full text: residual designs and uncovered subspaces; no located 104-or-better covering assertion. |
+| [Etzion, A New Approach for Examining q-Steiner Systems](https://arxiv.org/abs/1507.08503), 2018 journal | Full text: punctured systems, not a located new bound for this covering cell. |
+| [Etzion–Zhang, Grassmannian Codes with New Distance Measures for Network Coding](https://arxiv.org/abs/1801.02329), 2019 | Full text and subsequent packing/covering-code papers: supplies the terminology and duality for alpha-wise span codes; no located complementary packing of size 1291. |
+| [Heinlein–Honold–Kiermaier–Kurz–Wassermann, On projective q^r-divisible codes](https://arxiv.org/abs/1912.10147), 2019 onward | Full text, especially Section 3.4: discusses packings and coverings via divisible multisets, without a located numerical improvement for C_2(6,3,2). |
+| [Körner–Kurz, Lengths of divisible codes with restricted column multiplicities](https://arxiv.org/html/2303.17172v2), 2023 preprint / 2024 journal | Full text searched; no located stronger bound for the cell. |
+| [Divisible Linear Rank Metric Codes](https://arxiv.org/abs/2211.08180), 2023 journal | Full text: extension-field origins of rank-divisible matrix spaces. Its introduction cites subspace covering as an MRD-code application; no located covering-number improvement. |
+| [Cossidente–Kurz–Marino–Pavese, Combining subspace codes](https://epub.uni-bayreuth.de/5905/3/combinations_of_subspace_codes_arxiv.pdf), 2023 | Full text: distance-constrained packing constructions. |
+| [Kovács–Nagy–Szabó](https://arxiv.org/html/2410.07937v2), 2025 | Checked its general Section 3.1 as well as the (2,1) numerical results. For our (n,s,t,q)=(5,3,2,2), the basic recursive construction, Theorem 3.8, gives 8·11+27=115 for k=0, and 64+3·4·5+7=131 for k=1. These are my parameter substitutions, not quotations. I did not optimise every free choice in the more general Lemma 3.5. |
+| [Qian–Wang–Xie–Ge](https://arxiv.org/abs/2207.09277), 2022 | Full text, definitions and explicit constructions. Its stated general lower bound in Theorem II.6 gives 14·64=896 at the complementary parameters, far below 1291. New explicit constructions in Section IV have alpha=3 and delta>k; Section V's new bounds concern spreads with n>=alpha·k or asymptotic estimates. |
+| [Zhou–Fu](https://arxiv.org/abs/2608.03209), August 2026 | Full text, especially Section III-A and its numerical table. Its new construction lemmas require delta=(alpha-1)k and n>=alpha·k. |
+| [Riasat–Mahdavifar](https://arxiv.org/abs/2512.22911), December 2025 / January 2026 | Full text: average metric covering, including complex Grassmannians with chordal distance. |
+| [Li–Li–Luo–Sun](https://arxiv.org/abs/2609.25115), September 2026 | Primary abstract: generalized covering radii / saturating point configurations. |
+| [Aliabadi](https://arxiv.org/abs/2610.07051), October 2026 | Primary abstract: covers of vector points by proper subspaces, and basis-blocking families. |
+| [Marino–Neri–Vallefuoco](https://arxiv.org/abs/2610.11926), October 2026 | Primary abstract: rank-metric covering radius, not the present containment covering number. |
+| [Martínez-Peñas–Rodríguez-Ballesteros](https://arxiv.org/abs/2607.26684), July 2026 | Primary abstract: 1-subspace packings and QMDS lengths. |
+| [Shen–Burg](https://arxiv.org/abs/2606.11454), June 2026 | Primary abstract: constant-dimension packing for sparse parity-check matrices via lifted Gabidulin codes. |
+| [Hirai](https://arxiv.org/abs/2608.13972), August 2026 | Primary abstract: fractional vector-subspace packing / Brascamp–Lieb polytopes, a different packing problem. |
+| [Nagy–Weiner](https://arxiv.org/abs/2605.23644), May–September 2026 | Primary abstract: distributions of intersections with point sets. |
+
+The rows marked 'primary abstract' were not full-paper exclusion proofs.
+They were screened as different questions. No numerical predecessor for the
+target was found in any of these routes.
+
+**Author lists and tables.** I read the available primary publication lists
+of [Etzion](https://etzion.net.technion.ac.il/publications/),
+[Kiermaier](https://www.mathe2.uni-bayreuth.de/michaelk/),
+[Kurz](https://www.wm.uni-bayreuth.de/de/team/kurz_sascha/index.php) and
+[Wassermann](https://btmdx1.mat.uni-bayreuth.de/~alfred/home/listall.html),
+saved as HTML and text. Braun's departmental
+[publication-list PDF](https://fbi.h-da.de/fileadmin/Personen/fbi1115/publications_04.pdf)
+was readable through the web tool's cached PDF text (through 2024); direct
+download returned 404. Targeted searches also covered Cossidente and Pavese,
+and the institutional Pavese publication list was readable through indexed
+web results. None of these author lists is assumed complete through 2026.
+
+The 2014 Etzion table was inspected visually in the downloaded journal PDF.
+Bayreuth's live website failed through browser access and direct HTTP/HTTPS
+requests; the 2019 companion technical report was read instead to establish
+its documented packing-code scope. No separate maintained online q-covering
+table was identified. Classical LJCR tables are tables for subsets, not this
+q-analog.
+
+**Retrieval corrections.** Three early arXiv API requests accidentally
+double-encoded quotation marks; their zero-result responses
+`arxiv_api_qcover.xml`, `arxiv_api_turan.xml`, and
+`arxiv_api_turan_unicode.xml` are invalid search evidence. The corrected
+responses have `_correct` in their names and are the ones counted above.
+One initial download labelled `grassmann_distances2019.pdf` requested the
+wrong identifier, 1812.11120, which is a skyrmion paper. It was excluded and
+removed. The correct source is 1801.02329, saved as
+`grassmann_distances2019_correct.pdf`. The original request and its hash are
+retained in `packing-complement-manifest.json`; the correction is recorded in
+`grassmann-correction-manifest.json`. Neither error contributes to the verdict.
+
+**Limits of the priority conclusion.** The checked literature supports the
+105 baseline and the absence of an identified predecessor. It cannot prove
+the absence of every unpublished, unindexed, inaccessible or differently
+phrased result. The failed live-table access is explicitly retained as a gap.
+The witness's correctness and the computed automorphism group do not depend
+on priority.

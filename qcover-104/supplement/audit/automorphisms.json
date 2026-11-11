@@ -1,0 +1,239 @@
+{
+  "definition": "Full projective semilinear stabilizer; over F_2 this is exactly GL(6,2)",
+  "domain_basis_for_exhaustive_search": [
+    17,
+    14,
+    38,
+    5,
+    1,
+    2
+  ],
+  "search_nodes_by_depth": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 16,
+    "5": 256,
+    "6": 4096
+  },
+  "order": 4,
+  "isomorphism_type": "C2 x C2",
+  "element_order_histogram": {
+    "1": 1,
+    "2": 3
+  },
+  "center_order": 4,
+  "generator_images_of_standard_basis": [
+    [
+      15,
+      29,
+      10,
+      25,
+      30,
+      49
+    ],
+    [
+      39,
+      36,
+      51,
+      25,
+      54,
+      49
+    ]
+  ],
+  "point_orbits": [
+    [
+      1,
+      15,
+      39,
+      41
+    ],
+    [
+      2,
+      29,
+      36,
+      59
+    ],
+    [
+      3,
+      18
+    ],
+    [
+      4,
+      10,
+      51,
+      61
+    ],
+    [
+      5,
+      20
+    ],
+    [
+      6,
+      23
+    ],
+    [
+      7,
+      24,
+      47,
+      48
+    ],
+    [
+      8,
+      25
+    ],
+    [
+      9,
+      22,
+      33,
+      62
+    ],
+    [
+      11,
+      26
+    ],
+    [
+      12,
+      19,
+      42,
+      53
+    ],
+    [
+      13,
+      28
+    ],
+    [
+      14
+    ],
+    [
+      16,
+      30,
+      54,
+      56
+    ],
+    [
+      17
+    ],
+    [
+      21,
+      27,
+      34,
+      44
+    ],
+    [
+      31
+    ],
+    [
+      32,
+      49
+    ],
+    [
+      35,
+      50
+    ],
+    [
+      37,
+      52
+    ],
+    [
+      38
+    ],
+    [
+      40
+    ],
+    [
+      43,
+      58
+    ],
+    [
+      45,
+      60
+    ],
+    [
+      46,
+      63
+    ],
+    [
+      55
+    ],
+    [
+      57
+    ]
+  ],
+  "block_orbit_sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "block_orbit_size_histogram": {
+    "1": 8,
+    "2": 24,
+    "4": 12
+  },
+  "point_orbit_size_histogram": {
+    "1": 7,
+    "2": 12,
+    "4": 8
+  },
+  "exceptional_plane_points": [
+    14,
+    17,
+    31,
+    38,
+    40,
+    55,
+    57
+  ],
+  "exceptional_plane_is_subspace": true,
+  "exceptional_plane_fixed_pointwise": true,
+  "exceptional_plane_is_a_block": false,
+  "block_intersection_with_exceptional_plane_histogram": {
+    "0": 48,
+    "1": 28,
+    "3": 28
+  },
+  "no_correlation_stabilizer": true,
+  "seconds": 0.38945537502877414
+}

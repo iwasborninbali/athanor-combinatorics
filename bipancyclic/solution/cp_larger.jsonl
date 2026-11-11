@@ -1,0 +1,6 @@
+{"N": 48, "k": 4, "pattern": 3, "status": "INFEASIBLE", "seconds": 4.411765834025573, "branches": 143518, "conflicts": 46928}
+{"N": 48, "k": 4, "pattern": 5, "status": "INFEASIBLE", "seconds": 3.201750040985644, "branches": 128606, "conflicts": 34361}
+{"N": 48, "k": 4, "pattern": 11, "status": "OPTIMAL", "seconds": 6.075709959026426, "branches": 196678, "conflicts": 51808, "arcs": [0, 7, 24, 4, 1, 0, 3, 9], "chords": [[0, 7], [0, 35], [31, 36], [36, 39]]}
+{"N": 50, "k": 4, "pattern": 5, "status": "INFEASIBLE", "seconds": 7.10576583299553, "branches": 221004, "conflicts": 66575}
+{"N": 50, "k": 4, "pattern": 11, "status": "OPTIMAL", "seconds": 5.3690369999967515, "branches": 165153, "conflicts": 44096, "arcs": [5, 12, 0, 1, 25, 3, 0, 4], "chords": [[0, 17], [5, 18], [17, 46], [43, 46]]}
+{"N": 52, "k": 4, "pattern": 11, "status": "UNKNOWN", "seconds": 30.001552125031594, "branches": 610278, "conflicts": 228399}

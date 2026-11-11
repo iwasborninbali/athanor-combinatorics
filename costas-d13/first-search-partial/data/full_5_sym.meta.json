@@ -1,0 +1,19 @@
+{
+  "order": 5,
+  "target": 5,
+  "arrays": 40,
+  "full": true,
+  "array_variables": [
+    1,
+    40
+  ],
+  "hole_variables": [
+    41,
+    65
+  ],
+  "variables": 305,
+  "clauses": 778,
+  "symmetry": true,
+  "catalogue_sha256": "f404a89e1910c1eb9852bfad2ed423b1f66b028b18c9444b4c8b8ffb7bef2dc9",
+  "cnf_sha256": "580b3f0ac0bc544e5fb80515d89dd61c9e0f1d40ab7b58214bac761489780201"
+}

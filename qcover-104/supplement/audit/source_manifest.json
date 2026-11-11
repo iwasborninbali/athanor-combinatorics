@@ -1,0 +1,70 @@
+{
+  "description": "Historical source identities from the independent audit, 11 November 2026 UTC. Source PDFs and the larger retrieval archive are not distributed in this supplement.",
+  "reports": [
+    {
+      "original_path": "verify.md",
+      "sha256": "9e7eda09b514960331ebe4b828b903c10df0da0e0e089de95e741c01f5ce2183"
+    },
+    {
+      "original_path": "search_record.md",
+      "sha256": "000d99c349b556d2c6630abe65b70c7c59ff4011eb4de300060f12c737dfb849"
+    },
+    {
+      "original_path": "independent_check.py",
+      "sha256": "d2a35e3a9e1b9a104c909e8358ad4a787eb08a554d1e1e224afb25dbfb0cc5be"
+    },
+    {
+      "original_path": "automorphisms.py",
+      "sha256": "ec44c80487a5c2a02e8729a68936308993a4f448c7a4ea443930dc2551a6bbbf"
+    }
+  ],
+  "primary_source_retrievals": [
+    {
+      "name": "etzion2014.pdf",
+      "requested_url": "https://etzion.net.technion.ac.il/files/2016/02/P94.pdf",
+      "final_url": "https://etzion.net.technion.ac.il/files/2016/02/P94.pdf",
+      "content_type": "application/pdf",
+      "bytes": 582813,
+      "sha256": "f054491b0ea0fff5daf5607b4940ef6e51d744db6af92a658866a2077c06f60d",
+      "status": "ok"
+    },
+    {
+      "name": "etzion_vardy2011.pdf",
+      "requested_url": "https://etzion.net.technion.ac.il/files/2016/02/P82.pdf",
+      "final_url": "https://etzion.net.technion.ac.il/files/2016/02/P82.pdf",
+      "content_type": "application/pdf",
+      "bytes": 458447,
+      "sha256": "dbd5ac0b46da2cb006e1a5331cce5ddf99c0006ea217a8834c7927101a0328b8",
+      "status": "ok"
+    },
+    {
+      "name": "pavese2020.pdf",
+      "requested_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v27i1p35/pdf/",
+      "final_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v27i1p35/pdf/",
+      "content_type": "application/pdf",
+      "bytes": 300567,
+      "sha256": "d650acc35e2c26841ee9bbd9bd19db04faab17943dc2a5e7930760b95125ca07",
+      "status": "ok"
+    },
+    {
+      "name": "blocking2025.pdf",
+      "requested_url": "https://arxiv.org/pdf/2410.07937",
+      "final_url": "https://arxiv.org/pdf/2410.07937",
+      "content_type": "application/pdf",
+      "bytes": 638718,
+      "sha256": "c913a75e897535c827fc2004ae534a79e0a323730638181dfc8fe2180dc620a2",
+      "status": "ok"
+    },
+    {
+      "name": "tables2019.pdf",
+      "requested_url": "https://arxiv.org/pdf/1601.02864",
+      "final_url": "https://arxiv.org/pdf/1601.02864",
+      "content_type": "application/pdf",
+      "bytes": 1091804,
+      "sha256": "7cae11682f99bd9129fd6a2fbbe65de12f6134e23eeadf1ea0943b9b52db4a9e",
+      "status": "ok"
+    }
+  ],
+  "checker_adaptation": "checker.py integrates the independently written verifier algorithms, recomputes all invariants, checks trade and text equality, and writes only fresh JSON to stdout. check_rank.py is copied without modifications from a05-qcover.",
+  "guide_check": "The writing brief records the Guide script confirmation. That script is not included or replayed."
+}

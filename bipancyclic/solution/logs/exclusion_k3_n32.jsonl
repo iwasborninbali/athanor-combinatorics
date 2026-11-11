@@ -1,0 +1,6 @@
+{"type":"start","N":32,"patterns":14,"count_skipped":13,"cases":4}
+{"type":"case","N":32,"pattern":13,"color":7,"S":11,"assignments":4368,"represented":4368,"nodes":482,"found":false,"elapsed":3.0917e-05}
+{"type":"case","N":32,"pattern":13,"color":14,"S":11,"assignments":4368,"represented":4368,"nodes":1458,"found":false,"elapsed":0.000187208}
+{"type":"case","N":32,"pattern":13,"color":21,"S":13,"assignments":8568,"represented":8568,"nodes":4927,"found":false,"elapsed":0.0005275}
+{"type":"case","N":32,"pattern":13,"color":28,"S":11,"assignments":4368,"represented":4368,"nodes":1669,"found":false,"elapsed":0.000679667}
+{"type":"UNSAT","N":32,"cases":4,"assignments":21672,"nodes":8536,"seconds":0.00074275}

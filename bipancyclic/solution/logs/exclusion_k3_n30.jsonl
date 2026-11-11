@@ -1,0 +1,10 @@
+{"type":"start","N":30,"patterns":14,"count_skipped":12,"cases":8}
+{"type":"case","N":30,"pattern":12,"color":7,"S":10,"assignments":3003,"represented":3003,"nodes":1920,"found":false,"elapsed":0.000106625}
+{"type":"case","N":30,"pattern":12,"color":14,"S":10,"assignments":3003,"represented":3003,"nodes":1907,"found":false,"elapsed":0.000292}
+{"type":"case","N":30,"pattern":12,"color":19,"S":11,"assignments":4368,"represented":4368,"nodes":3102,"found":false,"elapsed":0.000526333}
+{"type":"case","N":30,"pattern":12,"color":26,"S":11,"assignments":4368,"represented":4368,"nodes":3015,"found":false,"elapsed":0.000762458}
+{"type":"case","N":30,"pattern":13,"color":7,"S":10,"assignments":3003,"represented":3003,"nodes":412,"found":false,"elapsed":0.000851917}
+{"type":"case","N":30,"pattern":13,"color":14,"S":10,"assignments":3003,"represented":3003,"nodes":1148,"found":false,"elapsed":0.000977625}
+{"type":"case","N":30,"pattern":13,"color":21,"S":12,"assignments":6188,"represented":6188,"nodes":3959,"found":false,"elapsed":0.00125704}
+{"type":"case","N":30,"pattern":13,"color":28,"S":10,"assignments":3003,"represented":3003,"nodes":1317,"found":false,"elapsed":0.0013965}
+{"type":"UNSAT","N":30,"cases":8,"assignments":29939,"nodes":16780,"seconds":0.00146112}

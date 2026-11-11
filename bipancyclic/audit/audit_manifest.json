@@ -1,0 +1,26 @@
+{
+  "verified_at_utc": "2026-11-11 00:40:49 UTC",
+  "sha256": {
+    "independent_witnesses.py": "7825ed4aab49a314392c3860a7cceeb03830a0453baa9876b54d70aedc78fdf7",
+    "independent_witnesses.json": "145bdf6e81906665b342815fe95c98b1aff01e26777cd741fc8416f3b1c934e6",
+    "independent_exhaustive.cpp": "a8b6cf759d0b85f74d22fe8cb4700a6ff168587e0fe52c3dfdfd533d92459090",
+    "independent_exhaustive": "266113087b425eacfada385c4785a1765b6ea1ab28b7244295219c7f1a143b3c",
+    "independent_runs.jsonl": "6adb46cb1387eaa5810159dd77ca3a5c6ebd9bc9d11cb01321031f4d52e88c5f",
+    "independent_k4_n48.jsonl": "04aaf09575ce35c26528781f49617edf306f336871b98137b2370c4a8f063087",
+    "independent_k4_n48_no_symmetry.jsonl": "c0c8045f47599cb1c37f84250fd41c61b5f4b52839ea9d70e8b7ca23328c092c",
+    "independent_crosscheck.py": "2bb9b1ecc4fea102cb52aa8659ba3d6e584f9361f032c197cd948f1e6abce3cc",
+    "independent_crosschecks.json": "eb2614c66148b72653b95d56be1d4cbe60ceec6f0cc8a04d5dd18a11b0973cc2",
+    "independent_symmetry.py": "2d5e6e5d53ecc07dbf4436da6d9fa66715add41b942786d53a1a8b7304291de5",
+    "independent_symmetry.json": "1341703f192e04f5b9eb1358a92bce2723b3bae2d49f9fd1740ab9b8394d65bd",
+    "verify.md": "06f4a1d4d53e06676593644c08d884b68877167e65ca30e3b96e8afab68e6373",
+    "literature_access.jsonl": "ee786618800ff6211e8948971c945157f291377f67a05dd8522ac5a93004958d",
+    "literature_search_capture.json": "b68a48e63c2d9e4ca994c882af69c2227608a79f6e1170b6de814e8138d04e7b",
+    "../a03-bipancyclic/result.md": "580a93e53031ea059bc414c68a8ebce50e5b57be6233f60e6a2743cf35d07ecc",
+    "../a03-bipancyclic/witnesses.json": "bf85e26b17018676976facb8191e883deac129b262d8eaee71812fae813dfce6",
+    "../../stalled-scout/math/sources/bipancyclic2017.pdf": "80d87a7406eb3c4abe7ebcee589f4ea383f34d1e3982f1451a77bcdf8ec75628"
+  },
+  "complete_exclusions": 13,
+  "witnesses": 31,
+  "total_complete_compositions": 356995217,
+  "additional_no_symmetry_compositions": 215830758
+}

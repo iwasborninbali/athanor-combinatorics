@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-11T00:04:15.630015+00:00",
+  "reason": "Two external nice-10 scan jobs on CPU 2 caused contention; allow only our checker threads to balance across allowed CPUs 2 and 3",
+  "changes": [
+    {
+      "pid": 1060060,
+      "old_affinity": [
+        2
+      ],
+      "new_affinity": [
+        2,
+        3
+      ]
+    },
+    {
+      "pid": 1060063,
+      "old_affinity": [
+        3
+      ],
+      "new_affinity": [
+        2,
+        3
+      ]
+    }
+  ]
+}

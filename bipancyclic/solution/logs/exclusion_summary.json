@@ -1,0 +1,145 @@
+[
+  {
+    "type": "UNSAT",
+    "N": 16,
+    "cases": 2,
+    "assignments": 112,
+    "nodes": 110,
+    "seconds": 0.000160584,
+    "proof": "certificates/exclusion_k2_n16.bpc.gz",
+    "compressed_bytes": 85,
+    "uncompressed_bytes": 122
+  },
+  {
+    "type": "UNSAT",
+    "N": 28,
+    "cases": 10,
+    "assignments": 22386,
+    "nodes": 13844,
+    "seconds": 0.00145721,
+    "proof": "certificates/exclusion_k3_n28.bpc.gz",
+    "compressed_bytes": 1952,
+    "uncompressed_bytes": 13872
+  },
+  {
+    "type": "UNSAT",
+    "N": 30,
+    "cases": 8,
+    "assignments": 29939,
+    "nodes": 16780,
+    "seconds": 0.00146112,
+    "proof": "certificates/exclusion_k3_n30.bpc.gz",
+    "compressed_bytes": 1936,
+    "uncompressed_bytes": 16804
+  },
+  {
+    "type": "UNSAT",
+    "N": 32,
+    "cases": 4,
+    "assignments": 21672,
+    "nodes": 8536,
+    "seconds": 0.00074275,
+    "proof": "certificates/exclusion_k3_n32.bpc.gz",
+    "compressed_bytes": 983,
+    "uncompressed_bytes": 8552
+  },
+  {
+    "type": "UNSAT",
+    "N": 48,
+    "cases": 110,
+    "assignments": 35466805,
+    "nodes": 10947278,
+    "seconds": 0.728724,
+    "proof": "certificates/exclusion_k4_n48.bpc.gz",
+    "compressed_bytes": 740589,
+    "uncompressed_bytes": 10947506
+  },
+  {
+    "type": "UNSAT",
+    "N": 50,
+    "cases": 88,
+    "assignments": 42685654,
+    "nodes": 11429809,
+    "seconds": 0.762581,
+    "proof": "certificates/exclusion_k4_n50.bpc.gz",
+    "compressed_bytes": 726281,
+    "uncompressed_bytes": 11429993
+  },
+  {
+    "type": "UNSAT",
+    "N": 52,
+    "cases": 64,
+    "assignments": 47998470,
+    "nodes": 11285906,
+    "seconds": 0.765845,
+    "proof": "certificates/exclusion_k4_n52.bpc.gz",
+    "compressed_bytes": 643197,
+    "uncompressed_bytes": 11286042
+  },
+  {
+    "type": "UNSAT",
+    "N": 54,
+    "cases": 56,
+    "assignments": 60869250,
+    "nodes": 13545835,
+    "seconds": 0.916987,
+    "proof": "certificates/exclusion_k4_n54.bpc.gz",
+    "compressed_bytes": 723496,
+    "uncompressed_bytes": 13545955
+  },
+  {
+    "type": "UNSAT",
+    "N": 56,
+    "cases": 32,
+    "assignments": 51144795,
+    "nodes": 8943354,
+    "seconds": 0.632031,
+    "proof": "certificates/exclusion_k4_n56.bpc.gz",
+    "compressed_bytes": 458763,
+    "uncompressed_bytes": 8943426
+  },
+  {
+    "type": "UNSAT",
+    "N": 58,
+    "cases": 32,
+    "assignments": 66594411,
+    "nodes": 10980373,
+    "seconds": 0.75104,
+    "proof": "certificates/exclusion_k4_n58.bpc.gz",
+    "compressed_bytes": 544264,
+    "uncompressed_bytes": 10980445
+  },
+  {
+    "type": "UNSAT",
+    "N": 60,
+    "cases": 16,
+    "assignments": 43070742,
+    "nodes": 7673347,
+    "seconds": 0.524782,
+    "proof": "certificates/exclusion_k4_n60.bpc.gz",
+    "compressed_bytes": 364370,
+    "uncompressed_bytes": 7673387
+  },
+  {
+    "type": "UNSAT",
+    "N": 62,
+    "cases": 0,
+    "assignments": 0,
+    "nodes": 0,
+    "seconds": 8.3e-08,
+    "proof": "certificates/exclusion_k4_n62.bpc.gz",
+    "compressed_bytes": 28,
+    "uncompressed_bytes": 8
+  },
+  {
+    "type": "UNSAT",
+    "N": 64,
+    "cases": 0,
+    "assignments": 0,
+    "nodes": 0,
+    "seconds": 4.1e-08,
+    "proof": "certificates/exclusion_k4_n64.bpc.gz",
+    "compressed_bytes": 28,
+    "uncompressed_bytes": 8
+  }
+]

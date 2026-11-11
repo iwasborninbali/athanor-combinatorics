@@ -1,0 +1,4 @@
+{"type":"start","N":16,"patterns":3,"count_skipped":2,"cases":2}
+{"type":"case","N":16,"pattern":2,"color":3,"S":5,"assignments":56,"represented":56,"nodes":55,"found":false,"elapsed":6.709e-06}
+{"type":"case","N":16,"pattern":2,"color":6,"S":5,"assignments":56,"represented":56,"nodes":55,"found":false,"elapsed":9.9667e-05}
+{"type":"UNSAT","N":16,"cases":2,"assignments":112,"nodes":110,"seconds":0.000160584}

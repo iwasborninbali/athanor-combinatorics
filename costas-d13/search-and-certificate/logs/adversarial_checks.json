@@ -1,0 +1,149 @@
+[
+  {
+    "damage": "missing_marker",
+    "checker": "cpp",
+    "rejected": true,
+    "returncode": 1,
+    "error": "REJECTED: truncated trace\n"
+  },
+  {
+    "damage": "missing_marker",
+    "checker": "own_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 137, in <module>\n    print(json.dumps(audit(args.catalogue, args.proof, args.target, scope), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 116, in audit\n    assert stream.read(len(marker)) == marker, 'missing completion marker'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: missing completion marker\n"
+  },
+  {
+    "damage": "missing_marker",
+    "checker": "copied_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 213, in <module>\n    print(json.dumps(verify(args.catalogue, args.proof, args.target), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 199, in verify\n    assert stream.read(8) == b'ENDPROOF', 'missing completion marker'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: missing completion marker\n"
+  },
+  {
+    "damage": "missing_node",
+    "checker": "cpp",
+    "rejected": true,
+    "returncode": 1,
+    "error": "REJECTED: unknown trace opcode\n"
+  },
+  {
+    "damage": "missing_node",
+    "checker": "own_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 137, in <module>\n    print(json.dumps(audit(args.catalogue, args.proof, args.target, scope), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 111, in audit\n    visit(p, target - 1)\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 73, in visit\n    assert op == 254, ('unknown opcode', op)\n           ^^^^^^^^^\nAssertionError: ('unknown opcode', 69)\n"
+  },
+  {
+    "damage": "missing_node",
+    "checker": "copied_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 213, in <module>\n    print(json.dumps(verify(args.catalogue, args.proof, args.target), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 197, in verify\n    node(candidates, target-1)\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 128, in node\n    assert op in (251, 254), ('unknown opcode', op)\n           ^^^^^^^^^^^^^^^^\nAssertionError: ('unknown opcode', 69)\n"
+  },
+  {
+    "damage": "unknown_opcode",
+    "checker": "cpp",
+    "rejected": true,
+    "returncode": 1,
+    "error": "REJECTED: unknown trace opcode\n"
+  },
+  {
+    "damage": "unknown_opcode",
+    "checker": "own_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 137, in <module>\n    print(json.dumps(audit(args.catalogue, args.proof, args.target, scope), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 111, in audit\n    visit(p, target - 1)\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 73, in visit\n    assert op == 254, ('unknown opcode', op)\n           ^^^^^^^^^\nAssertionError: ('unknown opcode', 255)\n"
+  },
+  {
+    "damage": "unknown_opcode",
+    "checker": "copied_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 213, in <module>\n    print(json.dumps(verify(args.catalogue, args.proof, args.target), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 197, in verify\n    node(candidates, target-1)\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 128, in node\n    assert op in (251, 254), ('unknown opcode', op)\n           ^^^^^^^^^^^^^^^^\nAssertionError: ('unknown opcode', 255)\n"
+  },
+  {
+    "damage": "false_cardinality",
+    "checker": "cpp",
+    "rejected": true,
+    "returncode": 1,
+    "error": "REJECTED: invalid cardinality leaf\n"
+  },
+  {
+    "damage": "false_cardinality",
+    "checker": "own_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 137, in <module>\n    print(json.dumps(audit(args.catalogue, args.proof, args.target, scope), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 111, in audit\n    visit(p, target - 1)\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 65, in visit\n    assert p.bit_count() < need, 'false cardinality bound'\n           ^^^^^^^^^^^^^^^^^^^^\nAssertionError: false cardinality bound\n"
+  },
+  {
+    "damage": "false_cardinality",
+    "checker": "copied_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 213, in <module>\n    print(json.dumps(verify(args.catalogue, args.proof, args.target), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 197, in verify\n    node(candidates, target-1)\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 121, in node\n    assert candidates.bit_count() < need, ('bad cardinality leaf', nodes)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('bad cardinality leaf', 1)\n"
+  },
+  {
+    "damage": "trailing_stream",
+    "checker": "cpp",
+    "rejected": true,
+    "returncode": 1,
+    "error": "REJECTED: trailing proof data\n"
+  },
+  {
+    "damage": "trailing_stream",
+    "checker": "own_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 137, in <module>\n    print(json.dumps(audit(args.catalogue, args.proof, args.target, scope), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 117, in audit\n    assert stream.read(1) == b'', 'trailing proof data'\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError: trailing proof data\n"
+  },
+  {
+    "damage": "trailing_stream",
+    "checker": "copied_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 213, in <module>\n    print(json.dumps(verify(args.catalogue, args.proof, args.target), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 200, in verify\n    assert stream.read(1) == b'', 'trailing proof data'\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError: trailing proof data\n"
+  },
+  {
+    "damage": "raw_truncated",
+    "checker": "cpp",
+    "rejected": true,
+    "returncode": 1,
+    "error": "REJECTED: truncated or corrupt gzip\n"
+  },
+  {
+    "damage": "raw_truncated",
+    "checker": "own_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "of, args.target, scope), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 117, in audit\n    assert stream.read(1) == b'', 'trailing proof data'\n           ^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 324, in read\n    return self._buffer.read(size)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/_compression.py\", line 68, in readinto\n    data = self.read(len(byte_view))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 518, in read\n    self._read_eof()\n  File \"/usr/lib/python3.12/gzip.py\", line 560, in _read_eof\n    crc32, isize = struct.unpack(\"<II\", _read_exact(self._fp, 8))\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 440, in _read_exact\n    raise EOFError(\"Compressed file ended before the \"\nEOFError: Compressed file ended before the end-of-stream marker was reached\n"
+  },
+  {
+    "damage": "raw_truncated",
+    "checker": "copied_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "s.proof, args.target), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 200, in verify\n    assert stream.read(1) == b'', 'trailing proof data'\n           ^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 324, in read\n    return self._buffer.read(size)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/_compression.py\", line 68, in readinto\n    data = self.read(len(byte_view))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 518, in read\n    self._read_eof()\n  File \"/usr/lib/python3.12/gzip.py\", line 560, in _read_eof\n    crc32, isize = struct.unpack(\"<II\", _read_exact(self._fp, 8))\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 440, in _read_exact\n    raise EOFError(\"Compressed file ended before the \"\nEOFError: Compressed file ended before the end-of-stream marker was reached\n"
+  },
+  {
+    "damage": "bad_crc",
+    "checker": "cpp",
+    "rejected": true,
+    "returncode": 1,
+    "error": "REJECTED: gzip read failure\n"
+  },
+  {
+    "damage": "bad_crc",
+    "checker": "own_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 137, in <module>\n    print(json.dumps(audit(args.catalogue, args.proof, args.target, scope), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/audit_speed.py\", line 117, in audit\n    assert stream.read(1) == b'', 'trailing proof data'\n           ^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 324, in read\n    return self._buffer.read(size)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/_compression.py\", line 68, in readinto\n    data = self.read(len(byte_view))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 518, in read\n    self._read_eof()\n  File \"/usr/lib/python3.12/gzip.py\", line 562, in _read_eof\n    raise BadGzipFile(\"CRC check failed %s != %s\" % (hex(crc32),\ngzip.BadGzipFile: CRC check failed 0x3432258c != 0x3432258d\n"
+  },
+  {
+    "damage": "bad_crc",
+    "checker": "copied_python",
+    "rejected": true,
+    "returncode": 1,
+    "error": "Traceback (most recent call last):\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 213, in <module>\n    print(json.dumps(verify(args.catalogue, args.proof, args.target), indent=2))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<vm-home>/costas-speed/checkers/check_clique_proof.py\", line 200, in verify\n    assert stream.read(1) == b'', 'trailing proof data'\n           ^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 324, in read\n    return self._buffer.read(size)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/_compression.py\", line 68, in readinto\n    data = self.read(len(byte_view))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/gzip.py\", line 518, in read\n    self._read_eof()\n  File \"/usr/lib/python3.12/gzip.py\", line 562, in _read_eof\n    raise BadGzipFile(\"CRC check failed %s != %s\" % (hex(crc32),\ngzip.BadGzipFile: CRC check failed 0x3432258c != 0x3432258d\n"
+  }
+]

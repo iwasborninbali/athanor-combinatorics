@@ -1,0 +1,1 @@
+{"status":"SAT","n":10,"m":2160,"target":10,"edges":847198,"nodes":14,"seconds":0.00199941,"begin":0,"end":2160,"mod":1,"residue":0,"completed_roots":0,"D4":false,"greedy_only":false,"cardinality_cuts":0,"colour_cuts":5,"witness":[0,2159,1987,172,1762,397,1433,726,1099,1060]}

@@ -1,0 +1,77 @@
+{
+  "recorded_utc": "2026-11-10T21:56:43.768809+00:00",
+  "roots": 1616,
+  "sample": [
+    {
+      "ordinal": 0,
+      "vertex": 0,
+      "nodes": 24129882,
+      "seconds": 267.895,
+      "complete": true
+    },
+    {
+      "ordinal": 20,
+      "vertex": 31,
+      "nodes": 23179947,
+      "seconds": 248.97,
+      "complete": true
+    },
+    {
+      "ordinal": 40,
+      "vertex": 51,
+      "nodes": 16813835,
+      "seconds": 184.518,
+      "complete": true
+    },
+    {
+      "ordinal": 80,
+      "vertex": 96,
+      "nodes": 15220246,
+      "seconds": 171.98,
+      "complete": true
+    },
+    {
+      "ordinal": 160,
+      "vertex": 200,
+      "nodes": 4343907,
+      "seconds": 52.2043,
+      "complete": true
+    },
+    {
+      "ordinal": 320,
+      "vertex": 592,
+      "nodes": 1,
+      "seconds": 0.000343573,
+      "complete": true
+    },
+    {
+      "ordinal": 640,
+      "vertex": 956,
+      "nodes": 1,
+      "seconds": 7.8623e-05,
+      "complete": true
+    },
+    {
+      "ordinal": 1280,
+      "vertex": 2216,
+      "nodes": 1,
+      "seconds": 2.5111e-05,
+      "complete": true
+    }
+  ],
+  "interpolation": {
+    "linear": {
+      "nodes": 2655862726.5,
+      "first40_nodes": 876694133.5
+    },
+    "log_linear": {
+      "nodes": 2261268589.7313347,
+      "first40_nodes": 873238285.7324488
+    }
+  },
+  "wider_planning_scenario": [
+    1695951442.298501,
+    3319828408.125
+  ],
+  "qualification": "Deterministic interpolation scenarios, not confidence intervals or bounds. Declining tail and the absence of unseen expensive late roots are assumptions. Padding is a declared planning choice, not a measured probability."
+}

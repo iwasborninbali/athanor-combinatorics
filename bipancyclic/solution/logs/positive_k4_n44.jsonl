@@ -1,0 +1,11 @@
+{"type":"start","N":44,"patterns":103,"count_skipped":58,"cases":181}
+{"type":"case","N":44,"pattern":12,"color":3,"S":17,"assignments":5985,"represented":5985,"nodes":3017,"found":false,"elapsed":0.000106209}
+{"type":"case","N":44,"pattern":17,"color":13,"S":17,"assignments":5985,"represented":5985,"nodes":3285,"found":false,"elapsed":0.000235167}
+{"type":"case","N":44,"pattern":20,"color":14,"S":18,"assignments":7315,"represented":7315,"nodes":3885,"found":false,"elapsed":0.00038575}
+{"type":"case","N":44,"pattern":25,"color":7,"S":16,"assignments":20349,"represented":20349,"nodes":9895,"found":false,"elapsed":0.000757625}
+{"type":"case","N":44,"pattern":25,"color":19,"S":17,"assignments":26334,"represented":26334,"nodes":13208,"found":false,"elapsed":0.00123979}
+{"type":"case","N":44,"pattern":36,"color":7,"S":16,"assignments":20349,"represented":20349,"nodes":6040,"found":false,"elapsed":0.00147533}
+{"type":"case","N":44,"pattern":36,"color":21,"S":18,"assignments":33649,"represented":33649,"nodes":18615,"found":false,"elapsed":0.00216196}
+{"type":"case","N":44,"pattern":39,"color":7,"S":16,"assignments":20349,"represented":20349,"nodes":12097,"found":false,"elapsed":0.00259304}
+{"type":"case","N":44,"pattern":39,"color":13,"S":17,"assignments":26334,"represented":2131,"nodes":1436,"found":true,"elapsed":0.002656}
+{"type":"witness","N":44,"arcs":[3,5,1,4,13,18],"chords":[[0,3],[0,9],[8,13],[9,26]]}

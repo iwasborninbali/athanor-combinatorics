@@ -1,0 +1,126 @@
+{
+  "source_url": "https://jameskbeard.com/Files_for_download/Costas_folder_Searches.zip",
+  "archive_sha256": "a384baa41c01b4f7b4d633283125f9f471a3d1757bc863dc7136655633c9b9c2",
+  "extracted": [
+    {
+      "order": 10,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=10.txt",
+      "path": "data/costas_10.txt",
+      "sha256": "f7adb2f1f9c184f9aed90830ae5bf90e7c00d3e82f55ecd7786f2294da874ae0"
+    },
+    {
+      "order": 11,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=11.txt",
+      "path": "data/costas_11.txt",
+      "sha256": "76dfe38baccac06488a6b2b75e0e0c9bb081436389b7f7eec38a88d87b2f2f44"
+    },
+    {
+      "order": 12,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=12.txt",
+      "path": "data/costas_12.txt",
+      "sha256": "5a719f5486e3df101f64d81a8e78f7f3de76d43da9ac2d629113d96fc5b33bd1"
+    },
+    {
+      "order": 13,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=13.txt",
+      "path": "data/costas_13.txt",
+      "sha256": "a8acc2805c86001250b9104dbf41c2804cdb5734823554ac5313141e9d93e17d"
+    },
+    {
+      "order": 14,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=14.txt",
+      "path": "data/costas_14.txt",
+      "sha256": "d587e8cdaadd538ddeca394567e68b129684faa4a15d901c73b2d8614d45c555"
+    },
+    {
+      "order": 15,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=15.txt",
+      "path": "data/costas_15.txt",
+      "sha256": "0652a0680243273f13547fac635cbc10172368bc54872019d0bfe03205a82228"
+    },
+    {
+      "order": 17,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=17.txt",
+      "path": "data/costas_17.txt",
+      "sha256": "9737c92799f504a51387226c29f6d26448745c13ef3eacc15b6114c70777e73c"
+    },
+    {
+      "order": 23,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=23.txt",
+      "path": "data/costas_23.txt",
+      "sha256": "3321b08ddd77eeaf982e3d5b2fd3262b5a59c4d272f5ad76a7b0e3c392edb826"
+    },
+    {
+      "order": 24,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=24.txt",
+      "path": "data/costas_24.txt",
+      "sha256": "46b21bbed9a7d3bc31b4458744c1f2ebed1fb5a507cc2630261f796e830434aa"
+    },
+    {
+      "order": 25,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=25.txt",
+      "path": "data/costas_25.txt",
+      "sha256": "1f008069bdf35c55d1f6eeb090d582d69611ef93616957f56080fcd6119a4fd0"
+    },
+    {
+      "order": 26,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=26.txt",
+      "path": "data/costas_26.txt",
+      "sha256": "a88d97b41bc80d5e11254a6ae70bfdb47178f080d8a726dcd8527fba9c08eed5"
+    },
+    {
+      "order": 27,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=27.txt",
+      "path": "data/costas_27.txt",
+      "sha256": "b152d6daaaddb62244e829bc357fbc1415b03937760d35351637e9853947f41b"
+    },
+    {
+      "order": 29,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=29.txt",
+      "path": "data/costas_29.txt",
+      "sha256": "5be28779e2c70a1e104455b496b75d8c3759a4b4bb54d28083a1b804d06da3ec"
+    },
+    {
+      "order": 3,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=3.txt",
+      "path": "data/costas_3.txt",
+      "sha256": "d617a3db074b2cad71fdd84f351e446055ca0ed683fdf19ff16cbbb174fcbee0"
+    },
+    {
+      "order": 4,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=4.txt",
+      "path": "data/costas_4.txt",
+      "sha256": "b82a1d5da19aca3590e5ca210d8c468b8121f266e42ffa46570ba617edf1f129"
+    },
+    {
+      "order": 5,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=5.txt",
+      "path": "data/costas_5.txt",
+      "sha256": "f404a89e1910c1eb9852bfad2ed423b1f66b028b18c9444b4c8b8ffb7bef2dc9"
+    },
+    {
+      "order": 6,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=6.txt",
+      "path": "data/costas_6.txt",
+      "sha256": "30042f571768f5f3557260d20ac565a4296ef3653c3c066268c62231f333f664"
+    },
+    {
+      "order": 7,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=7.txt",
+      "path": "data/costas_7.txt",
+      "sha256": "51d998cfb1a77b85695a03702f084c1e6dca5c3a72edf1b6475cbd7cbdeed144"
+    },
+    {
+      "order": 8,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=8.txt",
+      "path": "data/costas_8.txt",
+      "sha256": "3e8ea3e571f1cca736476f7ed31f2d47acd4705da5e8faee3749cc0381791717"
+    },
+    {
+      "order": 9,
+      "archive_member": "Searches/Sorted_Costas_arrays_N=9.txt",
+      "path": "data/costas_9.txt",
+      "sha256": "1055967211290a4fe230aee1a640083632184f91aa6c85422b52ce4d71a865ac"
+    }
+  ]
+}

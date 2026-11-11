@@ -1,0 +1,32 @@
+{
+  "verified": true,
+  "order": 13,
+  "excluded_clique_size": 12,
+  "nodes": 2249110973,
+  "roots": 1616,
+  "method": "copied independent checker with explicit modulo-2 root selection; both disjoint scopes cover every canonical root",
+  "scopes": [
+    {
+      "verified": true,
+      "scope": "explicit_canonical_roots",
+      "modulus": 2,
+      "residue": 0,
+      "order": 13,
+      "excluded_clique_size": 12,
+      "nodes": 1113548025,
+      "roots": 808,
+      "seconds": 8734.01
+    },
+    {
+      "verified": true,
+      "scope": "explicit_canonical_roots",
+      "modulus": 2,
+      "residue": 1,
+      "order": 13,
+      "excluded_clique_size": 12,
+      "nodes": 1135562948,
+      "roots": 808,
+      "seconds": 8748.73
+    }
+  ]
+}

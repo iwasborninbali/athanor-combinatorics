@@ -1,0 +1,165 @@
+**Independent verification, 11 November 2026 (UTC).**
+
+**Witness verdict: confirmed.** The supplied certificate proves
+\(C_2(6,3,2)\le104\). My independently written checker verifies 104 distinct
+three-dimensional subspaces and coverage of all 651 two-dimensional subspaces.
+It imports none of the searcher's code or incidence data.
+
+**Priority verdict: provisionally new.** I found no previously published or
+arXiv-posted bound of 104 or better for these parameters, including the dual
+and complementary packing formulations. The smallest upper bound I located
+and checked in primary mathematical text is 105. I found no published lower
+bound stronger than 99. Thus **99–104 is the interval supported by this audit**;
+104 is not proved optimal. This is a substantial bounded literature check,
+not a guarantee that no unindexed predecessor exists. In particular, the live
+Bayreuth site could not be reached.
+
+**What was searched.** I searched the exact parameter strings with several
+spacing conventions, q-covering designs, q-Turán designs, planes covering
+lines, planes blocking solids, and complementary subspace packings. I checked
+the historical tables, later papers, named authors' publication lists, and
+arXiv material through the audit date. Live OpenAlex responses returned all
+13 indexed citers of Etzion 2014, both citers of Cossidente–Pavese 2016, and the
+one citer of Pavese 2020. I screened their titles and abstracts and inspected
+the relevant full texts. Citation indexing is incomplete, so I also searched
+independently of those citation chains. Requests, access failures, source
+hashes, and further leads are documented in [search_record.md](search_record.md)
+and the JSON manifests in [sources](sources/).
+
+**The duality matters.** For the ordinary dot product on \(V=\mathbb F_2^6\),
+\(U\subseteq B\) if and only if \(B^\perp\subseteq U^\perp\). Therefore the
+equivalent problem selects 3-spaces so that **each 4-space contains a selected
+3-space**. In the usual convention this is
+\[
+C_2(6,3,2)=T_2(6,4,3).
+\]
+Etzion–Vardy state the general equivalence in Theorem 2.1 of
+[*On q-analogs of Steiner systems and covering designs*](https://etzion.net.technion.ac.il/files/2016/02/P82.pdf).
+In projective terminology it is a **(3,2)-blocking set in PG(5,2)**: selected
+planes contained in every solid. Pavese 2020 orders the last two Turán
+parameters the other way, writing this as \(T_2(6,3,4)\). It is **not** the
+covering number \(C_2(6,4,3)\), which asks for solids covering planes.
+
+There is another useful search translation. There are 1,395 ambient 3-spaces,
+and each 2-space is in 15 of them. Complementing a cover gives a packing in
+which each 2-space is in at most 14 blocks. Using the notation of
+[Etzion–Kurz–Otal–Özbudak](https://arxiv.org/abs/1909.06081) and
+[Qian–Wang–Xie–Ge](https://arxiv.org/abs/2207.09277),
+\[
+C_2(6,3,2)=1395-A_2(6,3,2;14)=1395-B_2(6,3,2;15).
+\]
+Thus a predecessor to this result could also be a packing/code of size at
+least **1,291**. I checked this terminology as well.
+
+The primary-source findings are as follows. Short quotations below retain the
+source's mathematical notation, with normalised typesetting.
+
+| Source | Checked finding and implication |
+|---|---|
+| Tuvi Etzion, *Covering of subspaces by subspaces*, DCC 72 (2014), 405–421, [DOI](https://doi.org/10.1007/s10623-012-9766-3), [author PDF](https://etzion.net.technion.ac.il/files/2016/02/P94.pdf) | The table on **p. 417**, ambient dimension 6, row \(r=2\), column \(k=3\), reads **“99–106”**, with source markers \(s,c\). I visually inspected the table; the PDF's text extraction omits its entries. The image is preserved as [etzion2014-page417.png](sources/etzion2014-page417.png). |
+| Antonio Cossidente and Francesco Pavese, *A Note on q-Covering Designs in PG(5,q)*, JCD 24 (2016), 383–388, [DOI](https://doi.org/10.1002/jcd.21517) | This is the 105 predecessor. The publisher's metadata and abstract were accessible; the institutional full-text route returned 403. The numerical construction was checked through its explicit restatement and attribution in Pavese's next paper. |
+| Francesco Pavese, *On q-Covering Designs*, EJC 27(1) (2020), P1.35, [DOI](https://doi.org/10.37236/8718), [published PDF](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v27i1p35/pdf/), [arXiv:1904.12270](https://arxiv.org/abs/1904.12270) | **Theorem 5, p. 7**, explicitly attributed to “[7, Theorem 2.5]” (the 2016 paper), gives a cover **“of size \(q^6+q^4+2q^3+2q^2+q-1\)”**. At \(q=2\), this is \(64+16+16+8+2-1=105\). The paper's new \(C_q(2n,3,2)\) improvements start at \(n\ge4\); they do not improve the six-dimensional base case. |
+| Benedek Kovács, Zoltán Lóránt Nagy and Dávid R. Szabó, *Blocking planes by lines in PG(n,q)*, DCC 93 (2025), 4403–4432, [DOI](https://doi.org/10.1007/s10623-025-01678-w), [arXiv:2410.07937v2](https://arxiv.org/html/2410.07937v2) | Their explicit improved numerical bounds concern **(2,1)-blocking sets**, equivalent to \(C_q(n+1,n-1,n-2)\). Our target requires **(3,2)**. Their general recursive framework is broader, but I found no 104-or-better specialisation or improved lower bound for our cell. |
+| Daniel Heinlein, Michael Kiermaier, Sascha Kurz and Alfred Wassermann, *Tables of subspace codes*, [arXiv:1601.02864](https://arxiv.org/abs/1601.02864), [Bayreuth record](https://epub.uni-bayreuth.de/id/eprint/4571/) | Section 2 describes the website's tables as **“\(A_q(n,d;k)\) and \(A_q(n,d)\)”**, accessed through CDC and MDC. These maximise packing codes with a distance constraint. They are not tables of \(C_q(n,k,r)\). HTTP and HTTPS access to [the live site](https://subspacecodes.uni-bayreuth.de/) timed out, so I make no claim to have checked its current contents. I did not locate a separate maintained online q-covering table. |
+| Etzion, Kurz, Otal and Özbudak, *Subspace packings: constructions and bounds*, DCC 88 (2020), 1781–1810, [arXiv:1909.06081](https://arxiv.org/abs/1909.06081) | I inspected the definitions, bounds and numerical tables. The displayed packing tables use multiplicities 2, 3 and 4, rather than the complementary multiplicity 14. No 1,291-block complementary packing or stronger lower bound for our cover was located. |
+| Qian, Wang, Xie and Ge, *Covering Grassmannian Codes: Bounds and Constructions*, [arXiv:2207.09277](https://arxiv.org/abs/2207.09277) | This name refers to an \(\alpha\)-wise span condition. The relation to packings on p. 2 gives the complement translation above. The new explicit binary constructions use \(\alpha=3,\delta>k\), not our \((\alpha,k,\delta)=(15,3,2)\); the general existence bounds supply no located numerical predecessor of size 1,291. |
+| Qin Zhou and Fang-Wei Fu, *On the Minimum Field Size of Network MDS Codes for Generalized Combination Networks*, [arXiv:2608.03209](https://arxiv.org/abs/2608.03209) | I checked the covering-code bounds in Section III-A. The new construction lemmas use \(\delta=(\alpha-1)k\) and \(n\ge\alpha k\), which do not apply to \((6,3,2;15)\). No relevant numerical record was found. |
+| Vincent van der Noort, *Cayley algebras give rise to q-Fano planes over certain infinite fields and q-covering designs over others*, [arXiv:2006.01268](https://arxiv.org/abs/2006.01268) | Page 5 says: **“we will not discuss fields of characteristic 2 nor q-covering designs with different parameters than (7,3,2)”**. This does not give the present binary six-dimensional bound. |
+
+Other screened work included Etzion's punctured and residual q-Steiner
+constructions; Cossidente–Kurz–Marino–Pavese's
+[*Combining subspace codes*](https://epub.uni-bayreuth.de/5905/3/combinations_of_subspace_codes_arxiv.pdf);
+the divisible-code literature of Körner, Kurz, Heinlein, Honold and Kiermaier;
+and 2025–2026 papers on metric covering radii. The latter include
+[*Covering in Hamming and Grassmann Spaces*](https://arxiv.org/abs/2512.22911),
+which studies average chordal covering in complex Grassmann spaces, and
+[*Subspace coverings and generalized covering radii of generalized Zetterberg codes*](https://arxiv.org/abs/2609.25115),
+which studies saturating point configurations. Neither supplies a bound for
+the present finite-field containment problem. The detailed record separates
+full-text checks from abstract/title screening.
+
+**The lower bound.** Independently of the literature, fix a nonzero point
+\(P\). The 31 two-spaces through \(P\) correspond to the points of
+\(V/P\cong\mathbb F_2^5\). Each selected 3-space through \(P\) covers just
+three of them, so at least \(\lceil31/3\rceil=11\) selected blocks contain
+\(P\). Counting incidences with all 63 points gives
+\[
+7|\mathcal B|\ge63\cdot11=693,
+\qquad |\mathcal B|\ge99.
+\]
+This is the q-Schönheim lower bound, consistent with the table above and
+[Etzion–Vardy, Theorem 5.1](https://etzion.net.technion.ac.il/files/2016/02/P82.pdf).
+The present audit found no published exclusion of sizes 99–103 and proves
+none.
+
+**Independent certificate check.** The certificate's SHA-256 is
+`af7612a2a0a05e64265a7d44ca35039d033e72e40102a1bec2d122ace887727b`.
+Each supplied integer is interpreted in the stated six-bit convention. I
+formed each block by XOR closure, checked that it has eight elements, and
+compared the resulting subspace sets for uniqueness. Every ambient two-space
+has the unique nonzero point set \(\{x,y,x\oplus y\}\); generating these from
+all distinct nonzero vector pairs gives exactly 651 targets. I then tested
+containment directly.
+
+| Number of blocks containing a two-space | Number of two-spaces |
+|---:|---:|
+| 1 | 616 |
+| 2 | 3 |
+| 3 | 28 |
+| 4 | 2 |
+| 6 | 1 |
+| 8 | 1 |
+
+The counts sum to 651 and the incidence total is 728 = 104·7. Each block has
+at least four private two-spaces. I separately formed orthogonal complements
+and verified that each of the 651 four-spaces contains a dual block. Source
+and output: [independent_check.py](independent_check.py),
+[independent_check.json](independent_check.json).
+
+**Automorphisms: an exact additional finding.** The full stabilizer of this
+block family in \(\mathrm{GL}(6,2)=\mathrm{P\Gamma L}(6,2)\) has order **4**
+and is **\(C_2\times C_2\)**. Two generators are specified below by their
+images of the standard basis vectors encoded as \(1,2,4,8,16,32\), in that
+order:
+
+```text
+g: [15, 29, 10, 25, 30, 49]
+h: [39, 36, 51, 25, 54, 49]
+```
+
+Both are involutions, they commute, and their four products are precisely
+the stabilizer. Its point orbits have sizes \(1^7,2^{12},4^8\); its block
+orbits have sizes \(1^8,2^{24},4^{12}\).
+
+This is an exhaustive determination, not just a discovered subgroup.
+I coloured points by block degree, coloured each pair by the cover
+multiplicity of its joining line, and repeatedly refined point colours by
+the counts of coloured neighbours. Every stabilizing linear map preserves
+these colours. For the domain basis \((17,14,38,5,1,2)\), this reduces all
+possible image bases to 4,096 candidates. I explicitly tested every candidate
+against the complete block family; exactly four passed. The code also checks
+that the reported generators generate all four maps. See
+[automorphisms.py](automorphisms.py) and [automorphisms.json](automorphisms.json).
+
+The seven points with block degree greater than 11 are
+\(\{14,17,31,38,40,55,57\}\). They form the plane
+\(E=\langle14,17,38\rangle\), which the stabilizer fixes pointwise and which
+is not itself selected. The 104 blocks meet \(E\) in respectively zero, one
+and three nonzero points with frequencies **48, 28, 28**. The remaining 56
+points all have degree 11; the degrees on \(E\) are \(12^2,16^3,20^2\).
+There is no additional correlation stabilizing the family: 36 four-spaces
+contain no original block, whereas the orthogonal-complement family has the
+Turán property. A correlation preserving this cover would force that property
+on the original family too.
+
+Reproduce the mathematical checks from this folder with:
+
+```sh
+python3 independent_check.py
+python3 automorphisms.py
+```
+
+All scripts use only the Python standard library. Computation was light
+(under a second for the certificate and stabilizer checks together on this
+machine). All written artifacts are inside this audit folder. No installs,
+paid calls, VM, publication, or messages to others were used.

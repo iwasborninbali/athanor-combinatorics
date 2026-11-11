@@ -1,0 +1,50 @@
+{
+  "full_even": {
+    "user_seconds": 4078.32,
+    "system_seconds": 37.71,
+    "elapsed_seconds": 4155.0,
+    "max_rss_kb": 30080.0,
+    "cpu_seconds": 4116.03
+  },
+  "full_odd": {
+    "user_seconds": 4167.55,
+    "system_seconds": 21.56,
+    "elapsed_seconds": 4217.0,
+    "max_rss_kb": 30080.0,
+    "cpu_seconds": 4189.110000000001
+  },
+  "check13_even": {
+    "user_seconds": 6496.6,
+    "system_seconds": 80.42,
+    "elapsed_seconds": 8734.0,
+    "max_rss_kb": 29056.0,
+    "cpu_seconds": 6577.02
+  },
+  "check13_odd": {
+    "user_seconds": 6683.62,
+    "system_seconds": 55.81,
+    "elapsed_seconds": 8749.0,
+    "max_rss_kb": 29056.0,
+    "cpu_seconds": 6739.43
+  },
+  "iso_old_13": {
+    "user_seconds": 932.55,
+    "system_seconds": 7.91,
+    "elapsed_seconds": 952.94,
+    "max_rss_kb": 29696.0,
+    "cpu_seconds": 940.4599999999999
+  },
+  "iso_new_13": {
+    "user_seconds": 286.81,
+    "system_seconds": 1.78,
+    "elapsed_seconds": 291.52,
+    "max_rss_kb": 29952.0,
+    "cpu_seconds": 288.59
+  },
+  "search_cpu_hours": 2.306983333333333,
+  "verification_cpu_hours": 3.699013888888889,
+  "verification_thread_wall_hours": 4.856388888888889,
+  "search_first_start_epoch": 1794346344.8785794,
+  "search_last_end_epoch": 1794351415.6056077,
+  "search_staggered_span_seconds": 5070.727028369904
+}

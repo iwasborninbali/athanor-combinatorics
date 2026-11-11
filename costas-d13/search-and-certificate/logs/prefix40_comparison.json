@@ -1,0 +1,288 @@
+{
+  "recorded_utc": "2026-11-10T22:16:57.609919+00:00",
+  "completed_roots": 40,
+  "observed_nodes": 870922093,
+  "reference_nodes_given_in_user_context": 870922093,
+  "root_records": [
+    {
+      "ordinal": 0,
+      "vertex": 0,
+      "nodes": 24129882,
+      "seconds": 87.6578,
+      "complete": true
+    },
+    {
+      "ordinal": 1,
+      "vertex": 1,
+      "nodes": 18685241,
+      "seconds": 57.6198,
+      "complete": true
+    },
+    {
+      "ordinal": 2,
+      "vertex": 2,
+      "nodes": 20346095,
+      "seconds": 65.9775,
+      "complete": true
+    },
+    {
+      "ordinal": 3,
+      "vertex": 3,
+      "nodes": 24740936,
+      "seconds": 85.2644,
+      "complete": true
+    },
+    {
+      "ordinal": 4,
+      "vertex": 5,
+      "nodes": 20787304,
+      "seconds": 71.7719,
+      "complete": true
+    },
+    {
+      "ordinal": 5,
+      "vertex": 6,
+      "nodes": 20770218,
+      "seconds": 72.8468,
+      "complete": true
+    },
+    {
+      "ordinal": 6,
+      "vertex": 7,
+      "nodes": 24587314,
+      "seconds": 86.7353,
+      "complete": true
+    },
+    {
+      "ordinal": 7,
+      "vertex": 9,
+      "nodes": 24229047,
+      "seconds": 94.217,
+      "complete": true
+    },
+    {
+      "ordinal": 8,
+      "vertex": 10,
+      "nodes": 16564190,
+      "seconds": 57.0989,
+      "complete": true
+    },
+    {
+      "ordinal": 9,
+      "vertex": 11,
+      "nodes": 21060505,
+      "seconds": 69.7733,
+      "complete": true
+    },
+    {
+      "ordinal": 10,
+      "vertex": 17,
+      "nodes": 24208209,
+      "seconds": 95.9345,
+      "complete": true
+    },
+    {
+      "ordinal": 11,
+      "vertex": 22,
+      "nodes": 19140552,
+      "seconds": 51.1214,
+      "complete": true
+    },
+    {
+      "ordinal": 12,
+      "vertex": 23,
+      "nodes": 18542749,
+      "seconds": 58.6476,
+      "complete": true
+    },
+    {
+      "ordinal": 13,
+      "vertex": 24,
+      "nodes": 33710310,
+      "seconds": 126.755,
+      "complete": true
+    },
+    {
+      "ordinal": 14,
+      "vertex": 25,
+      "nodes": 23158388,
+      "seconds": 73.3524,
+      "complete": true
+    },
+    {
+      "ordinal": 15,
+      "vertex": 26,
+      "nodes": 21118547,
+      "seconds": 66.1929,
+      "complete": true
+    },
+    {
+      "ordinal": 16,
+      "vertex": 27,
+      "nodes": 28008188,
+      "seconds": 99.3138,
+      "complete": true
+    },
+    {
+      "ordinal": 17,
+      "vertex": 28,
+      "nodes": 19611219,
+      "seconds": 63.908,
+      "complete": true
+    },
+    {
+      "ordinal": 18,
+      "vertex": 29,
+      "nodes": 18828849,
+      "seconds": 72.5968,
+      "complete": true
+    },
+    {
+      "ordinal": 19,
+      "vertex": 30,
+      "nodes": 22531777,
+      "seconds": 80.5238,
+      "complete": true
+    },
+    {
+      "ordinal": 20,
+      "vertex": 31,
+      "nodes": 23179947,
+      "seconds": 91.4249,
+      "complete": true
+    },
+    {
+      "ordinal": 21,
+      "vertex": 32,
+      "nodes": 21486282,
+      "seconds": 70.4266,
+      "complete": true
+    },
+    {
+      "ordinal": 22,
+      "vertex": 33,
+      "nodes": 17039575,
+      "seconds": 51.4134,
+      "complete": true
+    },
+    {
+      "ordinal": 23,
+      "vertex": 34,
+      "nodes": 27681740,
+      "seconds": 106.1,
+      "complete": true
+    },
+    {
+      "ordinal": 24,
+      "vertex": 35,
+      "nodes": 21742479,
+      "seconds": 80.7603,
+      "complete": true
+    },
+    {
+      "ordinal": 25,
+      "vertex": 36,
+      "nodes": 33039901,
+      "seconds": 125.124,
+      "complete": true
+    },
+    {
+      "ordinal": 26,
+      "vertex": 37,
+      "nodes": 20636966,
+      "seconds": 85.4972,
+      "complete": true
+    },
+    {
+      "ordinal": 27,
+      "vertex": 38,
+      "nodes": 24586190,
+      "seconds": 89.6762,
+      "complete": true
+    },
+    {
+      "ordinal": 28,
+      "vertex": 39,
+      "nodes": 24827901,
+      "seconds": 117.383,
+      "complete": true
+    },
+    {
+      "ordinal": 29,
+      "vertex": 40,
+      "nodes": 31295873,
+      "seconds": 133.825,
+      "complete": true
+    },
+    {
+      "ordinal": 30,
+      "vertex": 41,
+      "nodes": 16600443,
+      "seconds": 58.8624,
+      "complete": true
+    },
+    {
+      "ordinal": 31,
+      "vertex": 42,
+      "nodes": 17952708,
+      "seconds": 60.75,
+      "complete": true
+    },
+    {
+      "ordinal": 32,
+      "vertex": 43,
+      "nodes": 18114048,
+      "seconds": 65.4614,
+      "complete": true
+    },
+    {
+      "ordinal": 33,
+      "vertex": 44,
+      "nodes": 17814557,
+      "seconds": 72.9159,
+      "complete": true
+    },
+    {
+      "ordinal": 34,
+      "vertex": 45,
+      "nodes": 15074140,
+      "seconds": 63.2675,
+      "complete": true
+    },
+    {
+      "ordinal": 35,
+      "vertex": 46,
+      "nodes": 23767028,
+      "seconds": 96.2896,
+      "complete": true
+    },
+    {
+      "ordinal": 36,
+      "vertex": 47,
+      "nodes": 16749245,
+      "seconds": 66.5451,
+      "complete": true
+    },
+    {
+      "ordinal": 37,
+      "vertex": 48,
+      "nodes": 17449841,
+      "seconds": 62.6969,
+      "complete": true
+    },
+    {
+      "ordinal": 38,
+      "vertex": 49,
+      "nodes": 17643320,
+      "seconds": 64.6307,
+      "complete": true
+    },
+    {
+      "ordinal": 39,
+      "vertex": 50,
+      "nodes": 19480389,
+      "seconds": 68.6636,
+      "complete": true
+    }
+  ]
+}

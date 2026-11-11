@@ -1,0 +1,21 @@
+{"N": 44, "k": 4, "pattern": 1, "status": "INFEASIBLE", "seconds": 0.6801934160175733, "branches": 40676, "conflicts": 7083}
+{"N": 44, "k": 4, "pattern": 3, "status": "OPTIMAL", "seconds": 1.7615819999482483, "branches": 82464, "conflicts": 14362, "arcs": [3, 0, 1, 4, 11, 20, 3, 2], "chords": [[0, 3], [3, 8], [4, 39], [19, 42]]}
+{"N": 46, "k": 4, "pattern": 3, "status": "INFEASIBLE", "seconds": 2.6321937079774216, "branches": 97113, "conflicts": 24656}
+{"N": 46, "k": 4, "pattern": 5, "status": "INFEASIBLE", "seconds": 3.4568902920000255, "branches": 105822, "conflicts": 29363}
+{"N": 46, "k": 4, "pattern": 6, "status": "INFEASIBLE", "seconds": 3.1023467920022085, "branches": 102432, "conflicts": 31072}
+{"N": 46, "k": 4, "pattern": 10, "status": "INFEASIBLE", "seconds": 2.4502248750068247, "branches": 97166, "conflicts": 23065}
+{"N": 46, "k": 4, "pattern": 11, "status": "OPTIMAL", "seconds": 11.303428124985658, "branches": 240812, "conflicts": 87304, "arcs": [1, 4, 21, 12, 5, 2, 1, 0], "chords": [[0, 5], [0, 43], [1, 38], [26, 45]]}
+{"N": 48, "k": 4, "pattern": 3, "status": "INFEASIBLE", "seconds": 2.746290582988877, "branches": 111051, "conflicts": 26193}
+{"N": 48, "k": 4, "pattern": 5, "status": "INFEASIBLE", "seconds": 2.9289058329886757, "branches": 96143, "conflicts": 24886}
+{"N": 48, "k": 4, "pattern": 11, "status": "INFEASIBLE", "seconds": 13.822742707969155, "branches": 273883, "conflicts": 104655}
+{"N": 48, "k": 4, "pattern": 12, "status": "INFEASIBLE", "seconds": 16.1760279169539, "branches": 289637, "conflicts": 112109}
+{"N": 48, "k": 4, "pattern": 13, "status": "INFEASIBLE", "seconds": 17.169219208008144, "branches": 325644, "conflicts": 118565}
+{"N": 48, "k": 4, "pattern": 14, "status": "INFEASIBLE", "seconds": 24.605320083035622, "branches": 439746, "conflicts": 168306}
+{"N": 48, "k": 4, "pattern": 15, "status": "INFEASIBLE", "seconds": 22.353012375009712, "branches": 380341, "conflicts": 147640}
+{"N": 48, "k": 4, "pattern": 16, "status": "UNKNOWN", "seconds": 30.001480958017055, "branches": 360531, "conflicts": 137033}
+{"N": 50, "k": 4, "pattern": 5, "status": "INFEASIBLE", "seconds": 4.742032000038307, "branches": 114989, "conflicts": 27799}
+{"N": 50, "k": 4, "pattern": 11, "status": "INFEASIBLE", "seconds": 21.259377582988236, "branches": 308966, "conflicts": 124406}
+{"N": 50, "k": 4, "pattern": 12, "status": "INFEASIBLE", "seconds": 20.717819290992338, "branches": 325039, "conflicts": 125063}
+{"N": 50, "k": 4, "pattern": 13, "status": "INFEASIBLE", "seconds": 13.339183875010349, "branches": 241171, "conflicts": 87723}
+{"N": 50, "k": 4, "pattern": 14, "status": "INFEASIBLE", "seconds": 28.453653874981683, "branches": 434981, "conflicts": 163619}
+{"N": 50, "k": 4, "pattern": 15, "status": "INFEASIBLE", "seconds": 20.243249416991603, "branches": 327599, "conflicts": 120727}

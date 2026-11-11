@@ -1,0 +1,26 @@
+[
+  {
+    "case": "truncated",
+    "verdict": "REJECTED",
+    "reason": "truncated proof"
+  },
+  {
+    "case": "trailing_data",
+    "verdict": "REJECTED",
+    "reason": "trailing data"
+  },
+  {
+    "case": "omitted_case",
+    "verdict": "REJECTED",
+    "reason": "('case coverage', 1, 2)"
+  },
+  {
+    "case": "unsound_Hamilton_leaf",
+    "verdict": "REJECTED",
+    "reason": "('unsound leaf', 2, 3, 3, 8)"
+  },
+  {
+    "case": "missing_chord_from_46",
+    "verdict": "REJECTED"
+  }
+]

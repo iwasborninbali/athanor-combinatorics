@@ -1,0 +1,15 @@
+{"type":"start","N":40,"patterns":103,"count_skipped":31,"cases":254}
+{"type":"case","N":40,"pattern":2,"color":3,"S":15,"assignments":816,"represented":816,"nodes":806,"found":false,"elapsed":2.8458e-05}
+{"type":"case","N":40,"pattern":3,"color":5,"S":14,"assignments":680,"represented":680,"nodes":705,"found":false,"elapsed":7.0625e-05}
+{"type":"case","N":40,"pattern":5,"color":7,"S":15,"assignments":3876,"represented":3876,"nodes":1969,"found":false,"elapsed":0.000150083}
+{"type":"case","N":40,"pattern":8,"color":11,"S":15,"assignments":3876,"represented":3876,"nodes":3811,"found":false,"elapsed":0.000288667}
+{"type":"case","N":40,"pattern":12,"color":3,"S":15,"assignments":3876,"represented":3876,"nodes":2205,"found":false,"elapsed":0.000384375}
+{"type":"case","N":40,"pattern":13,"color":11,"S":15,"assignments":3876,"represented":3876,"nodes":3811,"found":false,"elapsed":0.000526208}
+{"type":"case","N":40,"pattern":14,"color":3,"S":14,"assignments":3060,"represented":3060,"nodes":1856,"found":false,"elapsed":0.000601958}
+{"type":"case","N":40,"pattern":17,"color":13,"S":15,"assignments":3876,"represented":3876,"nodes":2408,"found":false,"elapsed":0.000708875}
+{"type":"case","N":40,"pattern":19,"color":13,"S":13,"assignments":2380,"represented":2380,"nodes":2605,"found":false,"elapsed":0.000814625}
+{"type":"case","N":40,"pattern":20,"color":14,"S":16,"assignments":4845,"represented":4845,"nodes":2840,"found":false,"elapsed":0.00093075}
+{"type":"case","N":40,"pattern":24,"color":11,"S":14,"assignments":11628,"represented":11628,"nodes":10785,"found":false,"elapsed":0.00127875}
+{"type":"case","N":40,"pattern":24,"color":19,"S":14,"assignments":11628,"represented":11628,"nodes":10785,"found":false,"elapsed":0.0016335}
+{"type":"case","N":40,"pattern":25,"color":7,"S":14,"assignments":11628,"represented":1476,"nodes":1023,"found":true,"elapsed":0.00168583}
+{"type":"witness","N":40,"arcs":[3,6,8,1,4,18],"chords":[[0,3],[0,9],[3,18],[17,22]]}

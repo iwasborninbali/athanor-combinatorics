@@ -1,0 +1,24 @@
+{
+  "clique_early_11_pilot": {
+    "trace_bytes": 1678397,
+    "trace_sha256": "8b79064a0c6eaea9d4eb6c7b2ba062933875a65a7016704e6a12169c30125662"
+  },
+  "fast256_11": {
+    "trace_bytes": 1678397,
+    "trace_sha256": "ab4a1e14d3a06913ea4e0fbaf810a3ddc448d323911f502a014e1ea531d5ae94"
+  },
+  "fast512_11": {
+    "trace_bytes": 1678397,
+    "trace_sha256": "c8d0f55fd5cc04a6970e47be1a9aa218b77d155c1568acba395affd60a47301e"
+  },
+  "fast256_13_r0": {
+    "equal_baseline": false,
+    "trace_bytes": 24129882,
+    "trace_sha256": "6101903325f9eb48b96dbd7929ffe328c09e68f73f7914f66db8dddb84984968"
+  },
+  "fast512_13_r0": {
+    "equal_baseline": false,
+    "trace_bytes": 24129882,
+    "trace_sha256": "6101903325f9eb48b96dbd7929ffe328c09e68f73f7914f66db8dddb84984968"
+  }
+}

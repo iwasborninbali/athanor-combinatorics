@@ -1,0 +1,8 @@
+{"N": 28, "k": 4, "pattern": 0, "status": "OPTIMAL", "seconds": 0.08055366697954014, "branches": 3066, "conflicts": 147, "arcs": [7, 0, 15, 0, 3, 0, 3, 0], "chords": [[0, 7], [0, 25], [7, 22], [22, 25]]}
+{"N": 44, "k": 4, "pattern": 1, "status": "INFEASIBLE", "seconds": 0.5842513329698704, "branches": 27180, "conflicts": 8202}
+{"N": 44, "k": 4, "pattern": 3, "status": "OPTIMAL", "seconds": 5.180749499995727, "branches": 183121, "conflicts": 61638, "arcs": [3, 0, 1, 4, 12, 19, 0, 5], "chords": [[0, 3], [3, 8], [4, 39], [20, 39]]}
+{"N": 46, "k": 4, "pattern": 3, "status": "INFEASIBLE", "seconds": 4.0775750409811735, "branches": 131035, "conflicts": 43631}
+{"N": 46, "k": 4, "pattern": 5, "status": "INFEASIBLE", "seconds": 5.462293749966193, "branches": 168423, "conflicts": 61757}
+{"N": 46, "k": 4, "pattern": 6, "status": "INFEASIBLE", "seconds": 4.854816959006712, "branches": 191031, "conflicts": 62607}
+{"N": 46, "k": 4, "pattern": 10, "status": "INFEASIBLE", "seconds": 4.269135000009555, "branches": 151474, "conflicts": 47692}
+{"N": 46, "k": 4, "pattern": 11, "status": "OPTIMAL", "seconds": 2.3361397910048254, "branches": 97665, "conflicts": 23369, "arcs": [0, 3, 20, 6, 0, 13, 0, 4], "chords": [[0, 3], [0, 29], [23, 42], [29, 42]]}

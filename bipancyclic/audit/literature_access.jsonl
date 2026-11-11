@@ -1,0 +1,14 @@
+{"name": "google_page102", "url": "https://books.google.com/books?id=xfk0DAAAQBAJ&pg=PA102&jscmd=SearchWithinVolume2&q=chords", "status": 200, "bytes": 97396, "content_type": "text/html; charset=UTF-8"}
+{"name": "google_page", "url": "https://books.google.com/books?id=xfk0DAAAQBAJ&pg=PA102&jscmd=ViewAPI", "status": 200, "bytes": 22, "content_type": "application/javascript; charset=UTF-8"}
+{"name": "springer_ch8", "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-31951-3_8.pdf", "status": 200, "bytes": 327417, "content_type": "text/html; charset=utf-8"}
+{"name": "google_volume", "url": "https://www.googleapis.com/books/v1/volumes/xfk0DAAAQBAJ", "error": "HTTP Error 429: Too Many Requests"}
+{"name": "book_preview", "url": "https://books.google.com/books?jscmd=SearchWithinVolume2&q=46&vid=xfk0DAAAQBAJ", "status": 200, "bytes": 94306, "content_type": "text/html; charset=UTF-8"}
+{"name": "book_page102_html", "url": "https://books.google.com/books?id=xfk0DAAAQBAJ&pg=PA102&hl=en", "status": 200, "bytes": 94414, "content_type": "text/html; charset=UTF-8"}
+{"name": "book_page102_api", "url": "https://books.google.com/books?jscmd=click3&vid=xfk0DAAAQBAJ&pg=PA102&zoom=2&hl=en", "status": 200, "bytes": 1378, "content_type": "application/json; charset=UTF-8"}
+{"name": "book_page102_image", "url": "https://books.google.com/books/publisher/content?id=xfk0DAAAQBAJ&pg=PA102&img=1&zoom=2&hl=en", "status": 200, "bytes": 15567, "content_type": "image/png"}
+{"name": "book_page101_image", "url": "https://books.google.com/books/publisher/content?id=xfk0DAAAQBAJ&pg=PA101&img=1&zoom=2&hl=en", "status": 200, "bytes": 15567, "content_type": "image/png"}
+{"url": "https://books.google.com/books?id=xfk0DAAAQBAJ&q=44&hl=en", "error": "HTTP Error 429: Too Many Requests", "query": "44"}
+{"url": "https://books.google.com/books?id=xfk0DAAAQBAJ&q=46&hl=en", "error": "HTTP Error 429: Too Many Requests", "query": "46"}
+{"url": "https://books.google.com/books?id=xfk0DAAAQBAJ&q=64&hl=en", "error": "HTTP Error 429: Too Many Requests", "query": "64"}
+{"url": "https://books.google.com/books?id=xfk0DAAAQBAJ&q=31&hl=en", "error": "HTTP Error 429: Too Many Requests", "query": "31"}
+{"url": "https://books.google.com/books?id=xfk0DAAAQBAJ&q=excess&hl=en", "error": "HTTP Error 429: Too Many Requests", "query": "excess"}
