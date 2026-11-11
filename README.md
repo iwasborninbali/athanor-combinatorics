@@ -1,5 +1,7 @@
 # athanor-combinatorics
 
+**Archived release v1.0:** Zenodo [10.5281/zenodo.24140011](https://doi.org/10.5281/zenodo.24140011) (all versions: [10.5281/zenodo.24140010](https://doi.org/10.5281/zenodo.24140010)). The record also holds the full 379 MB Costas search trace `no_12_order13.proof.gz`.
+
 Certified computations on long-stalled combinatorial questions (November 2026).
 
 | Folder | Question (source) | Result | Status |
@@ -10,7 +12,7 @@ Certified computations on long-stalled combinatorial questions (November 2026).
 
 ### Costas D(13) = 11: what supports it
 
-- **The full search** is in `costas-d13/search-and-certificate/`. An exact clique search over all 12,828 order-13 Costas arrays found no 12-packing: 2,249,110,973 nodes, D4 symmetry roots, colouring bounds. An independent per-root audit of its 379 MB trace passed. The trace is on Zenodo with this repository's release, because it is too large for git. The solver is 3.28× faster than our first version, with the same node counts.
+- **The full search** is in `costas-d13/search-and-certificate/`. An exact clique search over all 12,828 order-13 Costas arrays found no 12-packing: 2,249,110,973 nodes, D4 symmetry roots, colouring bounds. An independent per-root audit of its 379 MB trace passed. The trace is in the Zenodo record above, because it is too large for git. The solver is 3.28× faster than our first version, with the same node counts.
 - **A first, separate search** (`costas-d13/first-search-partial/`) excluded the first 157 root families and agrees exactly on the first 40 roots.
 - **An independent re-implementation** (`costas-d13/independent-solver-and-catalogue/`) works without symmetry reduction.
   - It re-enumerates all order-13 Costas permutations and finds 12,828, matching the catalogue.
