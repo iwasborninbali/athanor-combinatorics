@@ -1,6 +1,6 @@
 # athanor-combinatorics
 
-**Archived release v1.0:** Zenodo [10.5281/zenodo.24140011](https://doi.org/10.5281/zenodo.24140011) (all versions: [10.5281/zenodo.24140010](https://doi.org/10.5281/zenodo.24140010)). The record also holds the full 379 MB Costas search trace `no_12_order13.proof.gz`.
+**Archived release v1.1:** Zenodo [10.5281/zenodo.24244789](https://doi.org/10.5281/zenodo.24244789); v1.0 [10.5281/zenodo.24140011](https://doi.org/10.5281/zenodo.24140011) (all versions: [10.5281/zenodo.24140010](https://doi.org/10.5281/zenodo.24140010)). The record also holds the full 379 MB Costas search trace `no_12_order13.proof.gz`.
 
 Certified computations on long-stalled combinatorial questions (November 2026).
 
