@@ -17,7 +17,9 @@ Certified computations on long-stalled combinatorial questions (November 2026).
 - **An independent re-implementation** (`costas-d13/independent-solver-and-catalogue/`) works without symmetry reduction.
   - It re-enumerates all order-13 Costas permutations and finds 12,828, matching the catalogue.
   - It reproduces D(9) = 8, D(10) = 10, D(11) = 10 (a full exclusion) and D(12) = 12.
-  - It covered the 35 heaviest order-13 roots without finding a 12-packing. It is not a complete second exclusion.
+  - It covered the 35 heaviest order-13 roots without finding a 12-packing.
+- **A second complete exclusion** (`costas-d13/second-complete-search/`, added 15 Nov 2026): a separately written exact solver
+  went through all 1,616 canonical roots on the lab VM (29.3e9 nodes, 55 hours, two threads) and found no 12-packing.
 - **Still pending:** a written adversarial review of the symmetry-reduction argument.
 
 ### Bipancyclic graphs
